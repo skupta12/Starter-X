@@ -12,7 +12,7 @@ const Header = () => {
       <MaxWidthWrapper>
         <div className="lg:py-7 py-6">
           <div className="flex items-center justify-between">
-            <div className="header-logo ">
+            <div className="header-logo hover:scale-95 duration-200">
               <Link href="/">
                 <Image
                   width={146}

@@ -1,4 +1,4 @@
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Percent, Plus } from "lucide-react";
 
 
 export const nav = [
@@ -132,22 +132,30 @@ export const numbers = [
   {
     id: 1,
     number: 98,
-    title: "Customer satisfaction"
+    title: "Customer satisfaction",
+    icon: Percent,
+    color: "#F1A280"
   },
   {
     id: 2,
-    number: 205,
-    title: "Monthly active users"
+    number: 205 + "M",
+    title: "Monthly active users",
+    icon: Plus,
+    color: "#E4D275"
   },
   {
     id: 3,
-    number: 100,
-    title: "New users per week"
+    number: 100 + "K",
+    title: "New users per week",
+    icon: Plus,
+    color: "#CEEAE8"
   },
   {
     id: 4,
     number: 55,
-    title: "Growth year-over-year"
+    title: "Growth year-over-year",
+    icon: Percent,
+    color: "#13544E"
   },
 ]
 

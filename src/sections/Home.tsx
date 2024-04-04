@@ -20,9 +20,9 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur adipiscing elit.
               Consectetur tortor nunc aliquam consectetur semper augue at.
             </p>
-            <div>
-              <Button className="sm:mr-5" title="Get Started" />
-              <LinkButton className="sm:mt-0 mt-2" title="Learn more" />
+            <div className="sm:flex items-center gap-x-5">
+              <Button className="sm:mb-0 mb-5" title="Get Started" />
+              <LinkButton title="Learn more" />
             </div>
           </div>
 

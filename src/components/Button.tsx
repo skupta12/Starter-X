@@ -27,8 +27,8 @@ export const Button = ({ title, className, href }: ButtonProps) => {
 export const LinkButton = ({ title, className, href }: ButtonProps) => {
   return (
     <Link href={"/about"}>
-      <button className={`${className} sm:text-[18px] font-medium text-[17px] px-[30px] 
-        py-[18px] text-gray-600 sm:w-auto w-full justify-center inline-flex items-center 
+      <button className={`${className} sm:text-[18px] font-medium text-[17px]
+       text-gray-600 sm:w-auto w-full justify-center inline-flex items-center 
       group`}>
         {title}
           <ArrowUpRight

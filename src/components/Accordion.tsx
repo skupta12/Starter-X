@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
+import styles from "@/style";
 
 const Accordion = ({
   title,
@@ -28,12 +29,14 @@ const Accordion = ({
         duration-300 flex items-center justify-between hover:transform hover:translate-x-1"
         onClick={toggleAccordion}
       >
-        <div className="flex items-center  gap-x-6">
+        <div className="flex items-center gap-x-6">
           <div className="max-w-full">
             <Image width={50} height={50} src={icon} alt={title} />
           </div>
-          <div className="text-primary-100 text-left lg:text-[36px] 
-          md:text-[32px] sm:text-[24px] text-[20px] font-medium">
+          <div
+            className="text-primary-100 text-left lg:text-[36px] 
+          md:text-[32px] sm:text-[24px] text-[20px] font-medium"
+          >
             {title}
           </div>
         </div>
@@ -47,7 +50,7 @@ const Accordion = ({
         style={{ maxHeight: `${height}` }}
         className="overflow-hidden transition-max-height duration-300 ease-out"
       >
-        <p className="py-6 text-[18px] text-primary-200 leading-[1.4] ">
+        <p className={`py-6 ${styles.paragraph}`}>
           {content}
         </p>
       </div>
