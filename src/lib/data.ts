@@ -159,4 +159,32 @@ export const numbers = [
   },
 ]
 
+export const socialLinks = [
+  // {
+  //   id: 1,
+  //   title: "Follow us",
+  //   href: "/"
+  // },
+  {
+    id: 2,
+    title: "Facebook",
+    href: "/"
+  },
+  {
+    id: 3,
+    title: "Instagram",
+    href: "/"
+  },
+  {
+    id: 4,
+    title: "Linkedin",
+    href: "/"
+  },
+  {
+    id: 5,
+    title: "Youtube",
+    href: "/"
+  },
+]
+
 

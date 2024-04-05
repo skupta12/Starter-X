@@ -33,7 +33,7 @@ const Home = () => {
       <div className="absolute right-0 bottom-0 -z-[1]">
         <img
           className="lg:w-full md:w-[350px] w-[200px] h-full -z-[1]"
-          src="home-image.svg"
+          src="svg/home-image.svg"
           alt="home image"
         />
       </div>

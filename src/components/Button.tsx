@@ -12,7 +12,7 @@ export const Button = ({ title, className, href }: ButtonProps) => {
     <Link href={"/pricing"}>
       <button
         className={`${className} border border-primary-100 
-        sm:w-auto w-full text-black sm:text-[18px] font-medium px-[30px] 
+        sm:w-auto w-full sm:text-[18px] font-medium px-[30px] 
         py-[18px] inline-block hover:bg-black hover:text-white 
         hover:scale-95 duration-300 cursor-pointer`}
         type="button"

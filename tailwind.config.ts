@@ -15,9 +15,9 @@ const config = {
         "primary-100": "#1F1F1F",
         "primary-200": "#383838", // gray-600
         "neutral-100": "#F1A280",
-        "neutral0-200": "#E4D275",
+        "neutral-200": "#E4D275",
         "neutral-300": "#CEEAE8",
-     
+        "neutral-400": "#1F1F1F"
       },
     },
   },

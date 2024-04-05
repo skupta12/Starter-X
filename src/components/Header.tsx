@@ -1,7 +1,7 @@
 import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import Image from "next/image";
-import HeaderLogo from "/public/header-logo.svg";
+import HeaderLogo from "/public/svg/header-logo.svg";
 import NavItem from "./NavItem";
 
 const Header = () => {
