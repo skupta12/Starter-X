@@ -11,6 +11,7 @@
   --neutral-300: #CEEAE8;
 }
 
+/* dropdown */
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -18,4 +19,34 @@
 
 .dropdown:hover .icon {
   transform: rotate(180deg);
+}
+
+/* border lines */
+
+.border-line:not(:last-child)::before { /*  for all lines except the last */
+  content: "";
+  position: absolute;
+  width: 950px;
+  height: 1px;
+  bottom: 0;
+  left: 0%;
+  right: 0px;
+  background-color: black;
+}
+
+@media(max-width: 1024px) {
+  .border-line:not(:last-child)::before {
+   left: auto;
+   right: auto;
+   width: 100%;
+  }
+
+  .border-line::before { /* for the last line */
+    content: "";
+    position: absolute;
+    height: 1px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+  }
 }

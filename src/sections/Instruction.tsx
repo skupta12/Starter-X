@@ -2,16 +2,16 @@ import Button, { LinkButton } from "@/components/Button";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { instruction } from "@/lib/data";
 import styles from "@/style";
-import React from "react";
 
 const Instruction = () => {
+
   return (
-    <section className={`${styles.sectionPadding} bg-background-200`}>
-      <div className="border-t border-b border-primary-100">
+    <section className={`${styles.sectionPadding} bg-background-200 overflow-hidden`}>
+      <div className="border-t lg:border-b border-primary-100">
         <MaxWidthWrapper>
           <div className="grid grid-cols-12 gap-4">
-            <div className="col-span-6">
-              <div className="title mt-20 lg:pr-14 mb-14">
+            <div className="lg:col-span-6 col-span-12">
+              <div className="title lg:mt-20 mt-10 lg:pr-14 mb-14">
                 <h2 className={styles.heading2}>
                   It has never been easier to manage your finances
                 </h2>
@@ -21,19 +21,23 @@ const Instruction = () => {
                 <LinkButton title="Learn more" />
               </div>
             </div>
-            <div className="col-span-6 relative">
-              {instruction.map(({ id, title, text }) => {
-                return (
-                  <ol key={id}>
-                    <li className="py-[64px] px-[40px] border-l border-primary-100">
-                      <h3
-                        className={`${styles.heading3} mb-6`}
-                      >{`${id}. ${title}`}</h3>
+            <div className="lg:col-span-6 col-span-12">
+              <ul className="relative">
+                {instruction.map(({ id, title, text }) => {
+                  return (
+                    <li
+                      key={id}
+                      className={`border-line lg:py-[64px] py-[40px] lg:px-[40px] lg:border-l border-primary-100 relative`}
+                    >
+                      <h3 className={`${styles.heading3} mb-6`}>
+                        {`${id}. ${title}`}
+                      </h3>
                       <p className={styles.paragraph}>{text}</p>
+                      <div className="listt-before"></div>
                     </li>
-                  </ol>
-                );
-              })}
+                  );
+                })}
+              </ul>
             </div>
           </div>
         </MaxWidthWrapper>
