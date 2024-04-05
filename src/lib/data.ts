@@ -160,30 +160,43 @@ export const numbers = [
 ]
 
 export const socialLinks = [
-  // {
-  //   id: 1,
-  //   title: "Follow us",
-  //   href: "/"
-  // },
   {
-    id: 2,
+    id: 1,
     title: "Facebook",
     href: "/"
   },
   {
-    id: 3,
+    id: 2,
     title: "Instagram",
     href: "/"
   },
   {
-    id: 4,
+    id: 3,
     title: "Linkedin",
     href: "/"
   },
   {
-    id: 5,
+    id: 4,
     title: "Youtube",
     href: "/"
+  },
+]
+
+export const instruction = [
+  {
+    id: 1,
+    title: "Download our free app",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua utenim."
+  },
+  {
+    id: 2,
+    title: "Create a free account",
+    text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    id: 3,
+    title: "Start controlling your finances",
+    text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
 ]
 
