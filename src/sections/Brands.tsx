@@ -1,6 +1,6 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { brands } from "@/lib/data";
-import Image from "next/image"
+import Image from "next/image";
 
 const Brands = () => {
   return (
@@ -8,13 +8,15 @@ const Brands = () => {
       <MaxWidthWrapper>
         <div>
           <div className="grid grid-cols-12 items-center lg:gap-x-8 gap-x-6 gap-y-5">
-            {brands.map(({ id, img, alt}) => (
-              <div key={id} className="lg:col-span-2 md:col-span-4 col-span-6 justify-self-center">
-                <Image width={150} height={35} src={img} alt={ alt + `-${id}`}/>
+            {brands.map(({ id, img, alt }) => (
+              <div
+                key={id}
+                className="lg:col-span-2 md:col-span-4 col-span-6 justify-self-center"
+              >
+                <Image width={150} height={35} src={img} alt={alt + `-${id}`} />
               </div>
             ))}
           </div>
-   
         </div>
       </MaxWidthWrapper>
     </section>

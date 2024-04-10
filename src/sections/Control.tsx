@@ -34,8 +34,7 @@ const Control = () => {
             </div>
             <div className="sm:flex items-center gap-x-5 lg:justify-self-end lg:col-span-5 col-span-12">
               <Button
-                className="sm:mb-0 mb-5 text-white hover:text-primary-100
-              border-white hover:bg-white"
+                className={`${styles.whiteButton} sm:mb-0 mb-5`}
                 title="Get Started"
               />
               <LinkButton className="text-white" title="Learn more" />
@@ -43,8 +42,10 @@ const Control = () => {
           </div>
         </MaxWidthWrapper>
       </section>
-      <section className="py-14 bg-neutral-400 border-t border-white 
-      relative overflow-hidden">
+      <section
+        className="py-14 bg-neutral-400 border-t border-white 
+      relative overflow-hidden"
+      >
         <ShapeSquare
           className="sm:w-[200px] w-[100px] sm:h-[200px] h-[100px] 
           sm:top-16 top-32 sm:right-32 -right-10 rotate-[20deg]"

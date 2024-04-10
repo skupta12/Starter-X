@@ -4,20 +4,24 @@ import { instruction } from "@/lib/data";
 import styles from "@/style";
 
 const Instruction = () => {
-
   return (
-    <section className={`${styles.sectionPadding} bg-background-200 overflow-hidden`}>
+    <section
+      className={`${styles.sectionPadding} bg-background-200 overflow-hidden`}
+    >
       <div className="border-t lg:border-b border-primary-100">
         <MaxWidthWrapper>
           <div className="grid grid-cols-12 gap-4">
             <div className="lg:col-span-6 col-span-12">
-              <div className="title lg:mt-20 mt-10 lg:pr-14 mb-14">
+              <div className="title lg:mt-20 mt-10 lg:pr-14 sm:mb-14 mb-10">
                 <h2 className={styles.heading2}>
                   It has never been easier to manage your finances
                 </h2>
               </div>
               <div className="sm:flex items-center gap-x-5">
-                <Button className="sm:mb-0 mb-5" title="Get Started" />
+                <Button
+                  className={`${styles.blackButton} sm:mb-0 mb-5`}
+                  title="Get Started"
+                />
                 <LinkButton title="Learn more" />
               </div>
             </div>

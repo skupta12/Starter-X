@@ -50,3 +50,24 @@
     background-color: black;
   }
 }
+
+/* header styles for next ui */
+
+.wrapper-classes {
+  width: 100%;
+  max-width: 1380px;
+  position: relative;
+  padding: 1.5rem 1rem;
+}
+
+@media(min-width: 1024px) {
+  .wrapper-classes {
+    padding: 0rem 5rem;
+  }
+}
+
+@media(min-width: 768px) {
+  .wrapper-classes {
+    padding: 0rem 3.5rem;
+  }
+}

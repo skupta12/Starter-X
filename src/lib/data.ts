@@ -1,6 +1,5 @@
 import { ChevronDown, Percent, Plus } from "lucide-react";
 
-
 export const nav = [
   {
     id: 1,
@@ -14,42 +13,9 @@ export const nav = [
   },
   {
     id: 3,
-    name: "Pages",
-    href: "#",
     icon: ChevronDown,
-    dropdown: [
-      {
-        id: 1,
-        text: "Sign up",
-        href: "/sign-up"
-      },
-      {
-        id: 2,
-        text: "Sign in",
-        href: "/sign-in"
-      },
-      {
-        id: 3,
-        text: "Forgot Password",
-        href: "/forgot-password"
-      },
-      {
-        id: 4,
-        text: "Confirm Email",
-        href: "/confirm-email"
-      },
-      {
-        id: 5,
-        text: "Terms & conditions",
-        href: "/terms-conditions"
-      },
-      {
-        id: 6,
-        text: "404 Not found",
-        href: "404-not-found"
-      },
-    ]   
   },
+
   {
     id: 4,
     name: "Blog",
@@ -61,6 +27,39 @@ export const nav = [
     href: "/contact",
   },
 ];
+
+export const dropdownn = [
+  {
+    id: 1,
+    text: "Sign up",
+    href: "/sign-up"
+  },
+  {
+    id: 2,
+    text: "Sign in",
+    href: "/sign-in"
+  },
+  {
+    id: 3,
+    text: "Forgot Password",
+    href: "/forgot-password"
+  },
+  {
+    id: 4,
+    text: "Confirm Email",
+    href: "/confirm-email"
+  },
+  {
+    id: 5,
+    text: "Terms & conditions",
+    href: "/terms-conditions"
+  },
+  {
+    id: 6,
+    text: "404 Not found",
+    href: "404-not-found"
+  },
+]
 
 export const brands = [
   {
@@ -125,6 +124,33 @@ export const accordion = [
     title: "World-class support",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
     icon: "/svg/accordion-icon-5.svg",
+  },
+]
+
+export const faq = [
+  {
+    id: 1,
+    title: "What is the monthly cost of your app?",
+    content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+    number: "0" + 1,
+  },
+  {
+    id: 2,
+    title: "Do you have any local branches?",
+    content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+    number: "0" + 2,
+  },
+  {
+    id: 3,
+    title: "What do I need to create an account?",
+    content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+    number: "0" + 3,
+  },
+  {
+    id: 4,
+    title: "Is the service available globally?",
+    content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+    number: "0" + 4,
   },
 ]
 
@@ -199,5 +225,32 @@ export const instruction = [
     text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
 ]
+
+export const testimonial = [
+  {
+    id: 1,
+    title: "Sophie Moore",
+    text: "With Starter X's robust security measures, I always feel confident that my funds are protected. No doubt it's the best bank service.",
+    position: "VP of Finance at Bank",
+    img: "/testimonial-1.jpg",
+    color: "#F1A280"
+  },
+  {
+    id: 2,
+    title: "John Carter",
+    text: "I'm delighted with Starter X's user-friendly mobile app and convenient online banking features. It truly is the best bank service!",
+    position: "VP of Finance at Bank",
+    img: "/testimonial-2.jpg",
+    color: "#E4D275"
+  },
+  {
+    id: 3,
+    title: "Andy Smith",
+    text: "Starter X's innovative approach to banking with its AI-powered features sets it apart as the best bank service in the USA.",
+    position: "VP of Finance at Bank",
+    img: "/testimonial-3.jpg",
+    color: "#CEEAE8"
+  },
+];
 
 

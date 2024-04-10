@@ -11,7 +11,7 @@ const Growth = () => {
       <MaxWidthWrapper>
         <div className="grid lg:grid-cols-12 lg:gap-x-10 gap-x-5 gap-y-10">
           <div className="col-span-6 lg:order-1 order-2">
-            <div className="mb-14 border border-black">
+            <div className="sm:mb-14 mb-10 border border-black">
               <Image src={GrowthImage1} alt="growth image" />
             </div>
             <div className="numbers-block grid grid-cols-12 gap-y-10 gap-x-5">
@@ -38,11 +38,7 @@ const Growth = () => {
           </div>
           <div className="col-span-6 lg:pl-14 order-1">
             <div>
-              <h2
-                className={styles.heading2}
-              >
-                We have impactful numbers
-              </h2>
+              <h2 className={styles.heading2}>We have impactful numbers</h2>
               <p className={`${styles.paragraph} mt-4 mb-14`}>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat

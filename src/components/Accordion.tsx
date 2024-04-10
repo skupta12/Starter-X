@@ -9,10 +9,12 @@ const Accordion = ({
   title,
   content,
   icon,
+  className,
 }: {
   title: string;
   content: string;
   icon: string;
+  className?: string;
 }) => {
   const [active, setActive] = useState<boolean>(false);
   const [height, setHeight] = useState<string>("0px");
@@ -23,7 +25,7 @@ const Accordion = ({
   const contentSpace = useRef<null>(null);
 
   return (
-    <div className="flex flex-col max-w-[820px] ml-auto">
+    <div className="flex flex-col">
       <button
         className="py-10 border-b border-b-gray-300 hover:border-b-black 
         duration-300 flex items-center justify-between hover:transform hover:translate-x-1"

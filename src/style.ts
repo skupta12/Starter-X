@@ -15,6 +15,8 @@ const styles = {
   
     // marginX: "sm:mx-16 mx-6",
     // marginY: "sm:my-16 my-6",
+    blackButton: "border border-primary-100 text-black hover:text-white hover:bg-primary-100",
+    whiteButton: "text-white border hover:text-black border-white hover:bg-white"
   };
   
 export default styles;

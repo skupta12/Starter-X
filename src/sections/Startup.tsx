@@ -12,7 +12,7 @@ const Startup = () => {
     <section className={styles.sectionPadding}>
       <MaxWidthWrapper>
         <div>
-          <div className="mb-14 text-center">
+          <div className="sm:mb-14 mb-10 text-center">
             <h2 className={styles.heading2}>
               Our app is great for individuals,{" "}
               <br className="sm:block hidden" /> startups and enterprises
@@ -98,7 +98,10 @@ const Startup = () => {
             </div>
             <div className="col-span-12 mt-10">
               <div className="sm:flex justify-center items-center gap-x-5">
-                <Button className="sm:mb-0 mb-5" title="Get Started" />
+                <Button
+                  className={`${styles.blackButton} sm:mb-0 mb-5`}
+                  title="Get Started"
+                />
                 <LinkButton title="Learn more" />
               </div>
             </div>

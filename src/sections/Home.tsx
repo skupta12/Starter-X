@@ -5,7 +5,7 @@ import styles from "@/style";
 const Home = () => {
   return (
     <section
-      className={`${styles.sectionPadding} relative overflow-hidden border-b 
+      className={`lg:py-24 py-16 relative overflow-hidden border-b 
       border-black sm:h-auto h-[650px]`}
     >
       <MaxWidthWrapper>
@@ -21,7 +21,7 @@ const Home = () => {
               Consectetur tortor nunc aliquam consectetur semper augue at.
             </p>
             <div className="sm:flex items-center gap-x-5">
-              <Button className="sm:mb-0 mb-5" title="Get Started" />
+              <Button className={`sm:mb-0 mb-5 ${styles.blackButton}`} title="Get Started" />
               <LinkButton title="Learn more" />
             </div>
           </div>
@@ -30,7 +30,7 @@ const Home = () => {
         </div>
       </MaxWidthWrapper>
 
-      <div className="absolute right-0 bottom-0 -z-[1]">
+      <div className="absolute right-0 bottom-0">
         <img
           className="lg:w-full md:w-[350px] w-[200px] h-full -z-[1]"
           src="svg/home-image.svg"
