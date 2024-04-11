@@ -384,25 +384,25 @@ export const footer = [
 export const media = [
   {
     id: 1,
-    icon: "/svg/dribble.svg",
+    icon: "/svg/media/dribble.svg",
     href: "/",
     srOnly: "Dribble Community"
   },
   {
     id: 2,
-    icon: "/svg/facebook.svg",
+    icon: "/svg/media/facebook.svg",
     href: "/",
     srOnly: "Facebook Community"
   },
   {
     id: 3,
-    icon: "/svg/github.svg",
+    icon: "/svg/media/github.svg",
     href: "/",
     srOnly: "Github Community"
   },
   {
     id: 4,
-    icon: "/svg/discord.svg",
+    icon: "/svg/media/discord.svg",
     href: "/",
     srOnly: "Discord Community"
   },
