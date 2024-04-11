@@ -1,5 +1,7 @@
+import Footer from '@/components/Footer'
 import Brands from '@/sections/Brands'
 import Control from '@/sections/Control'
+import Cta from '@/sections/Cta'
 import Experience from '@/sections/Experience'
 import Faq from '@/sections/Faq'
 import Growth from '@/sections/Growth'
@@ -22,6 +24,8 @@ const page = () => {
       <Testimonial />
       <Faq />
       <Post />
+      <Cta />
+      <Footer />
     </>
   )
 }

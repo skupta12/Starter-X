@@ -7,8 +7,8 @@ const Testimonial = () => {
   return (
     <section className={`${styles.sectionPadding} bg-white`}>
       <MaxWidthWrapper>
-        <div className={`${styles.heading2} text-center sm:mb-14 mb-10`}>
-          <h2>What our clients say</h2>
+        <div className={`text-center sm:mb-14 mb-10`}>
+          <h2 className={styles.heading2}>What our clients say</h2>
         </div>
         <div className="grid grid-cols-12 gap-6">
           {testimonial.map((item, i) => {

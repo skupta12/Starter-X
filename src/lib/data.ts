@@ -64,32 +64,32 @@ export const dropdownn = [
 export const brands = [
   {
     id: 1,
-    img: "/svg/brand-1.svg",
+    img: "/svg/brands/brand-1.svg",
     alt: "brand image"
   },
   {
     id: 2,
-    img: "/svg/brand-2.svg",
+    img: "/svg/brands/brand-2.svg",
     alt: "brand image"
   },
   {
     id: 3,
-    img: "/svg/brand-3.svg",
+    img: "/svg/brands/brand-3.svg",
     alt: "brand image"
   },
   {
     id: 4,
-    img: "/svg/brand-4.svg",
+    img: "/svg/brands/brand-4.svg",
     alt: "brand image"
   },
   {
     id: 5,
-    img: "/svg/brand-5.svg",
+    img: "/svg/brands/brand-5.svg",
     alt: "brand image"
   },
   {
     id: 6,
-    img: "/svg/brand-6.svg",
+    img: "/svg/brands/brand-6.svg",
     alt: "brand image"
   },
 ]
@@ -99,31 +99,31 @@ export const accordion = [
     id: 1,
     title: "Mobile and desktop app",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
-    icon: "/svg/accordion-icon-1.svg",
+    icon: "/svg/accordion/accordion-icon-1.svg",
   },
   {
     id: 2,
     title: "Cryptocurrencies supported",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
-    icon: "/svg/accordion-icon-2.svg",
+    icon: "/svg/accordion/accordion-icon-2.svg",
   },
   {
     id: 3,
     title: "256-bit security encryption",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
-    icon: "/svg/accordion-icon-3.svg",
+    icon: "/svg/accordion/accordion-icon-3.svg",
   },
   {
     id: 4,
     title: "Earnings & expense reports",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
-    icon: "/svg/accordion-icon-4.svg",
+    icon: "/svg/accordion/accordion-icon-4.svg",
   },
   {
     id: 5,
     title: "World-class support",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
-    icon: "/svg/accordion-icon-5.svg",
+    icon: "/svg/accordion/accordion-icon-5.svg",
   },
 ]
 
@@ -252,5 +252,161 @@ export const testimonial = [
     color: "#CEEAE8"
   },
 ];
+
+export const footer = [
+  {
+    id: 1,
+    title: "Company",
+    text: [
+      {
+        id: 1,
+        link: "About",
+        href: "/"
+      },
+      {
+        id: 2,
+        link: "Careers",
+        href: "/"
+      },
+      {
+        id: 3,
+        link: "Brand Center",
+        href: "/"
+      },
+      {
+        id: 4,
+        link: "Blog",
+        href: "/"
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Help Center",
+    text: [
+      {
+        id: 1,
+        link: "Discord Server",
+        href: "/"
+      },
+      {
+        id: 2,
+        link: "Twitter",
+        href: "/"
+      },
+      {
+        id: 3,
+        link: "Facebook",
+        href: "/"
+      },
+      {
+        id: 4,
+        link: "Contact us",
+        href: "/"
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Legal",
+    text: [
+      {
+        id: 1,
+        link: "Privacy Policy",
+        href: "/"
+      },
+      {
+        id: 2,
+        link: "Licensing",
+        href: "/"
+      },
+      {
+        id: 3,
+        link: "Terms & Conditions",
+        href: "/"
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Download",
+    text: [
+      {
+        id: 1,
+        link: "IOS",
+        href: "/"
+      },
+      {
+        id: 2,
+        link: "Android",
+        href: "/"
+      },
+      {
+        id: 3,
+        link: "Windows",
+        href: "/"
+      },
+      {
+        id: 4,
+        link: "MacOS",
+        href: "/"
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Utility Pages",
+    text: [
+      {
+        id: 1,
+        link: "Sign up",
+        href: "/sign-up"
+      },
+      {
+        id: 2,
+        link: "Sign in",
+        href: "sign-in"
+      },
+      {
+        id: 3,
+        link: "Forgot Password",
+        href: "forgot-password"
+      },
+      {
+        id: 4,
+        link: "Confirm Email",
+        href: "confirm-email"
+      },
+    ],
+  },
+]
+
+export const media = [
+  {
+    id: 1,
+    icon: "/svg/dribble.svg",
+    href: "/",
+    srOnly: "Dribble Community"
+  },
+  {
+    id: 2,
+    icon: "/svg/facebook.svg",
+    href: "/",
+    srOnly: "Facebook Community"
+  },
+  {
+    id: 3,
+    icon: "/svg/github.svg",
+    href: "/",
+    srOnly: "Github Community"
+  },
+  {
+    id: 4,
+    icon: "/svg/discord.svg",
+    href: "/",
+    srOnly: "Discord Community"
+  },
+]
+
 
 

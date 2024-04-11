@@ -8,8 +8,8 @@ const Faq = () => {
   return (
     <section className={`${styles.sectionPadding} bg-background-200`}>
       <MaxWidthWrapper>
-        <div className={`${styles.heading2} text-center sm:mb-14 mb-10`}>
-          <h2>
+        <div className={`text-center sm:mb-14 mb-10`}>
+          <h2 className={styles.heading2}>
             Frequently Asked <br className="sm:block hidden" /> Questions
           </h2>
         </div>
