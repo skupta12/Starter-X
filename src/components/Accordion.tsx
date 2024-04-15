@@ -32,7 +32,7 @@ const Accordion = ({
         onClick={toggleAccordion}
       >
         <div className="flex items-center gap-x-6">
-          <div className="max-w-full">
+          <div>
             <Image width={50} height={50} src={icon} alt={title} />
           </div>
           <div
