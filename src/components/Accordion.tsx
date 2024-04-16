@@ -33,7 +33,7 @@ const Accordion = ({
       >
         <div className="flex items-center gap-x-6">
           <div>
-            <Image width={40} height={40} src={icon} alt={title} />
+            <Image width={50} height={50} src={icon} alt={title} />
           </div>
           <div
             className="text-primary-100 text-left lg:text-[36px] 
