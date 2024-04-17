@@ -26,12 +26,12 @@ const Header = () => {
 
   return (
     <Navbar
-      className={`md:py-3`}
+      className={`md:py-3 border-b border-black`}
       classNames={{
         wrapper: "wrapper-classes",
       }}
       isBlurred
-      isBordered
+      isBordered={false}
       onMenuOpenChange={setIsMenuOpen}
     >
       <NavbarBrand>

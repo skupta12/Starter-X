@@ -2,10 +2,10 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import styles from "@/style";
 import Image from "next/image";
 import StartupImage from "/public/startup-image.jpg";
-import StartupImage1 from "/public/svg/startup-image-1.svg";
-import StartupImage2 from "/public/svg/startup-image-2.svg";
-import StartupImage3 from "/public/svg/startup-image-3.svg";
-import Button, { LinkButton } from "@/components/Button";
+import StartupImage1 from "/public/svg/startup/startup-image-1.svg";
+import StartupImage2 from "/public/svg/startup/startup-image-2.svg";
+import StartupImage3 from "/public/svg/startup/startup-image-3.svg";
+import { Button, LinkButton } from "@/components/Button";
 
 const Startup = () => {
   return (

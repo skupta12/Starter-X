@@ -11,8 +11,7 @@ const Home = () => {
       <MaxWidthWrapper>
         <div className="grid grid-cols-12 gap-4 items-center">
           <div className="home-text lg:col-span-7 col-span-12">
-            <h1 className="mb-[16px] text-primary-100 lg:text-[66px] md:text-[42px] 
-              text-[34px] font-medium leading-tight">
+            <h1 className={`${styles.heading1} mb-[16px]`}>
               The most <br className="md:block hidden" /> transparent &{" "}
               <br className="md:block hidden" /> secure banking ever
             </h1>
