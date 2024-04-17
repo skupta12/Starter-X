@@ -42,9 +42,9 @@ const Header = () => {
           <Image width={146} height={36} src={Logo} alt="header logo" />
         </Link>
       </NavbarBrand>
-      <NavbarMenuToggle
+      <NavbarMenuToggle    
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className="md:hidden"
+        className="md:hidden w-[40px] h-[40px]"
       />
       <NavbarContent
         className="hidden md:flex lg:gap-10 gap-6"

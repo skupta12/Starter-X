@@ -17,10 +17,10 @@ const Post = () => {
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1">
           <Link
-            className="col-span-1 group flex flex-col border border-black"
+            className="group flex flex-col border border-black"
             href="/"
           >
-            <div className="lg:p-12 p-8">
+            <div className="lg:p-12 md:p-8 p-5">
               <div className="mb-7 relative overflow-hidden md:h-[320px] 
               h-[200px] border border-black">
                 <Image
@@ -48,11 +48,11 @@ const Post = () => {
             </div>
           </Link>
           <Link
-            className="col-span-1 group flex flex-col border-black lg:border-t 
+            className="group flex flex-col border-black lg:border-t 
             border-t-0 border-b lg:border-l-0 border-l border-r"
             href="/"
           >
-            <div className="lg:p-12 p-8">
+            <div className="lg:p-12 md:p-8 p-5">
               <div className="mb-7 relative overflow-hidden md:h-[320px] 
               h-[200px] border border-black">
                 <Image

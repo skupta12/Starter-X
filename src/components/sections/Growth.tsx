@@ -12,7 +12,7 @@ const Growth = () => {
         <div className="grid lg:grid-cols-12 lg:gap-x-10 gap-x-5 gap-y-10">
           <div className="col-span-6 lg:order-1 order-2">
             <div className="sm:mb-14 mb-10 border border-black">
-              <Image src={GrowthImage1} alt="growth image" />
+              <Image width={588} height={550} src={GrowthImage1} alt="growth image" />
             </div>
             <div className="numbers-block grid grid-cols-12 gap-y-10 gap-x-5">
               {numbers.map(({ id, title, number, icon: Icon, color }) => {
@@ -47,7 +47,7 @@ const Growth = () => {
               </p>
             </div>
             <div className="border border-black">
-              <Image src={GrowthImage2} alt="growth image" />
+              <Image width={532} height={557} src={GrowthImage2} alt="growth image" />
             </div>
           </div>
         </div>
