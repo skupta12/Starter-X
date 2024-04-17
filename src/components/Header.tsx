@@ -44,7 +44,7 @@ const Header = () => {
       </NavbarBrand>
       <NavbarMenuToggle    
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className="md:hidden w-[40px] h-[40px]"
+        className="md:hidden w-[40px] h-[40px] rounded-none bg-black text-white"
       />
       <NavbarContent
         className="hidden md:flex lg:gap-10 gap-6"
