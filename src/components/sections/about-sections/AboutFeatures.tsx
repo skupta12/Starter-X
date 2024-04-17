@@ -1,5 +1,5 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import { features } from "@/lib/data";
+import { aboutFeatures } from "@/lib/data";
 import styles from "@/style";
 import Image from "next/image";
 
@@ -18,7 +18,7 @@ const Features = () => {
             </p>
           </div>
           <div>
-            {features.map((item, i) => (
+            {aboutFeatures.map((item, i) => (
               <div
                 className="grid grid-cols-12 border-b gap-5 pb-10 border-black mb-10"
                 key={i}

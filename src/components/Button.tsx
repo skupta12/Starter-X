@@ -1,16 +1,21 @@
+"use client";
+
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 type ButtonProps = {
   title: string;
   className?: string;
   href?: string;
-  color?: string;
 };
 
-export const Button = ({ title, className, href, color }: ButtonProps) => {
+export const Button = ({ title, className, href = "/" }: ButtonProps) => {
+
+  const router = useRouter();
+  
   return (
-    <Link href={"/pricing"}>
+    <Link href={href} onClick={() => router.push(href)}>
       <button
         className={`${className} sm:w-auto w-full sm:text-[18px] font-medium px-[30px] 
         py-[18px] inline-block hover:scale-95 duration-300 cursor-pointer`}
@@ -23,9 +28,12 @@ export const Button = ({ title, className, href, color }: ButtonProps) => {
   );
 };
 
-export const LinkButton = ({ title, className, href }: ButtonProps) => {
+export const LinkButton = ({ title, className, href = "/" }: ButtonProps) => {
+
+  const router = useRouter();
+
   return (
-    <Link href={"/about"}>
+    <Link href={href} onClick={() => router.push(href)}>
       <button className={`${className} sm:text-[18px] font-medium text-[17px]
        opacity-75 sm:w-auto w-full justify-center inline-flex items-center 
       group`}>
@@ -39,39 +47,5 @@ export const LinkButton = ({ title, className, href }: ButtonProps) => {
   )
 };
 
-// export const DownloadButton = ({ title, icon, className }: ButtonProps) => {
-//   return (
-//     <>
-//       <button
-//         className={`${className} text-[17px] font-medium px-9
-//         py-5 inline-flex gap-x-4 sm:w-auto w-full items-center justify-center rounded-[50px]
-//         group text-black transform hover:-translate-y-[2px] transition duration-300`}
-//         type="button"
-//       >
-//         {icon === "IOS" ? (
-//           <Image width={25} height={25} src="/apple.png" alt="apple icon" />
-//         ) : (
-//           <Image width={25} height={25} src="/android.png" alt="android icon" />
-//         )}
-//         {title}
-//       </button>
-//     </>
-//   );
-// };
-
-// export const BlackButton = ({ title, className }: ButtonProps) => {
-//   return (
-//     <>
-//       <button
-//         type="button"
-//         value="submit"
-//         className={`${className} inline-block font-semibold text-center bg-black
-//         text-white px-7 py-[14px] rounded-lg`}
-//       >
-//         {title}
-//       </button>
-//     </>
-//   );
-// };
 
 export default Button;

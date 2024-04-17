@@ -23,6 +23,11 @@ export const nav = [
   },
   {
     id: 5,
+    name: "Cart" + "(0)",
+    href: "/",
+  },
+  {
+    id: 6,
     name: "Contact",
     href: "/contact",
   },
@@ -495,7 +500,7 @@ export const media = [
   },
 ]
 
-export const features = [
+export const aboutFeatures = [
   {
     id: 1,
     icon: "/svg/about/features-1.svg",
