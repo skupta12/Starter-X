@@ -1,13 +1,13 @@
-import Brands from '@/components/sections/home/Brands'
-import Control from '@/components/sections/home/Control'
-import Experience from '@/components/sections/home/Experience'
-import Faq from '@/components/sections/home/Faq'
-import Growth from '@/components/sections/home/Growth'
-import Home from '@/components/sections/home/Home'
-import Instruction from '@/components/sections/home/Instruction'
-import Post from '@/components/sections/home/Post'
-import Startup from '@/components/sections/home/Startup'
-import Testimonial from '@/components/sections/home/Testimonial'
+import Brands from '@/components/sections/home-page/Brands'
+import Control from '@/components/sections/home-page/Control'
+import Experience from '@/components/sections/home-page/Experience'
+import Faq from '@/components/sections/home-page/Faq'
+import Growth from '@/components/sections/home-page/Growth'
+import Home from '@/components/sections/home-page/Home'
+import Instruction from '@/components/sections/home-page/Instruction'
+import Post from '@/components/sections/home-page/Post'
+import Startup from '@/components/sections/home-page/Startup'
+import Testimonial from '@/components/sections/home-page/Testimonial'
 
 const page = () => {
   return (

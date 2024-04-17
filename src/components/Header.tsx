@@ -16,7 +16,7 @@ import {
   DropdownItem,
   Button,
 } from "@nextui-org/react";
-import { dropdownn, nav } from "@/lib/data";
+import { nav } from "@/lib/data";
 import Image from "next/image";
 import Logo from "/public/svg/header-logo.svg";
 
@@ -39,7 +39,7 @@ const Header = () => {
           href="/"
           className="hover:scale-95 transition-transform duration-200"
         >
-          <Image width={146} height={36} src={Logo} alt="header logo" />
+          <Image width={146} height={50} src={Logo} alt="header logo" />
         </Link>
       </NavbarBrand>
       <NavbarMenuToggle    

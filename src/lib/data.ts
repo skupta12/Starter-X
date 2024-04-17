@@ -253,6 +253,93 @@ export const testimonial = [
   },
 ];
 
+export const aboutTestimonial = [
+  {
+    id: 1,
+    name: "John Carter",
+    position: "CEO & Founder",
+    image: "/about-testimonial-1.jpg",
+    alt: "testimonial image",
+    href: "/",
+    media: [
+      {
+        id: 1,
+        link: "/",
+        href: "/svg/media/dribble.svg",
+        alt: "social media image"
+      },
+      {
+        id: 2,
+        link: "/",
+        href: "/svg/media/twitter.svg",
+        alt: "social media image"
+      },
+      {
+        id: 3,
+        link: "/",
+        href: "/svg/media/discord.svg",
+        alt: "social media image"
+      },
+    ]
+  },
+  {
+    id: 2,
+    name: "Sophie Moore",
+    position: "CTO & Co-Founder",
+    image: "/about-testimonial-2.jpg",
+    alt: "testimonial image",
+    href: "/",
+    media: [
+      {
+        id: 1,
+        link: "/",
+        href: "/svg/media/dribble.svg",
+        alt: "social media image"
+      },
+      {
+        id: 2,
+        link: "/",
+        href: "/svg/media/twitter.svg",
+        alt: "social media image"
+      },
+      {
+        id: 3,
+        link: "/",
+        href: "/svg/media/discord.svg",
+        alt: "social media image"
+      },
+    ]
+  },
+  {
+    id: 3,
+    name: "Matt Cannon",
+    position: "VP of Product",
+    image: "/about-testimonial-3.jpg",
+    alt: "testimonial image",
+    href: "/",
+    media: [
+      {
+        id: 1,
+        link: "/",
+        href: "/svg/media/dribble.svg",
+        alt: "social media image"
+      },
+      {
+        id: 2,
+        link: "/",
+        href: "/svg/media/twitter.svg",
+        alt: "social media image"
+      },
+      {
+        id: 3,
+        link: "/",
+        href: "/svg/media/discord.svg",
+        alt: "social media image"
+      },
+    ]
+  },
+]
+
 export const footer = [
   {
     id: 1,
@@ -406,6 +493,38 @@ export const media = [
     href: "/",
     srOnly: "Discord Community"
   },
+]
+
+export const features = [
+  {
+    id: 1,
+    icon: "/svg/about/features-1.svg",
+    title: "Execution",
+    text: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.",
+    alt: "features icon"
+  },
+  {
+    id: 2,
+    icon: "/svg/about/features-2.svg",
+    title: "Move like a Startup",
+    text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+    alt: "features icon"
+  },
+  {
+    id: 3,
+    icon: "/svg/about/features-3.svg",
+    title: "Results Matter",
+    text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    alt: "features icon"
+  },
+  {
+    id: 4,
+    icon: "/svg/about/features-4.svg",
+    title: "Take Ownership",
+    text: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    alt: "features icon"
+  },
+
 ]
 
 

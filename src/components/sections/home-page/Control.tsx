@@ -1,6 +1,6 @@
 import { Button, LinkButton } from "@/components/Button";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import ShapeSquare, { ShapeTriangle, ShapeHexagon } from "@/components/Shape";
+import { Shape } from "@/components/Shape";
 import { socialLinks } from "@/lib/data";
 import styles from "@/style";
 import Square from "/public/svg/square.svg";
@@ -13,17 +13,19 @@ const Control = () => {
       <section
         className={`${styles.sectionPadding} bg-neutral-400 overflow-hidden relative`}
       >
-        <ShapeTriangle
+        <Shape
           src={Triangle}
           className="lg:w-[250px] sm:w-[200px] w-[100px] lg:h-[250px] 
           h-[200px] -top-24 right-24 rotate-[70deg]"
           fill
+          alt="triangle"
         />
-        <ShapeHexagon
+        <Shape
           src={Hexagon}
           className="lg:w-[350px] sm:w-[300px] w-[100px] lg:h-[350px] 
           sm:h-[300px] h-[100px] top-20 sm:-right-36 -right-8 rotate-45"
           fill
+          alt="hexagon"
         />
         <MaxWidthWrapper>
           <div className="grid grid-cols-12 gap-4 items-center">
@@ -46,11 +48,12 @@ const Control = () => {
         className="py-14 bg-neutral-400 border-t border-white 
       relative overflow-hidden"
       >
-        <ShapeSquare
+        <Shape
           className="sm:w-[200px] w-[100px] sm:h-[200px] h-[100px] 
           sm:top-16 top-32 sm:right-32 -right-10 rotate-[20deg]"
           src={Square}
           fill
+          alt="square"
         />
         <MaxWidthWrapper>
           <div className="grid grid-cols-12 text-center items-center gap-4">

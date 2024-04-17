@@ -10,7 +10,7 @@ const Cta = () => {
       <MaxWidthWrapper>
         <div className="flex flex-col items-center">
           <div>
-            <Image width={188} height={77} src={Logo} alt="logo" />
+            <Image className="w-auto h-auto" width={188} height={77} src={Logo} alt="logo" />
           </div>
        
           <p className="sm:text-[18px] text-white opacity-[80%] mt-4 mb-10 max-w-[55ch] text-center">
