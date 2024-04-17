@@ -14,7 +14,7 @@ const Brands = () => {
                 className="lg:col-span-2 md:col-span-4 col-span-6 justify-self-center"
               >
                 <div>
-                  <Image className="w-auto h-auto" width={150} height={35} src={img} alt={alt + `-${id}`} />
+                  <Image width={150} height={35} src={img} alt={alt + `-${id}`} />
                 </div>
              
               </div>

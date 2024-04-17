@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <section className={styles.sectionPadding}>
       <MaxWidthWrapper>
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-20">
           <div className="lg:pr-14">
             <h3 className={`${styles.heading2} mb-5`}>
               The values that shape everything we do at Starter X
@@ -20,7 +20,7 @@ const Features = () => {
           <div>
             {features.map((item, i) => (
               <div
-                className="grid grid-cols-12 border-b gap-5 pb-7 border-black mb-10"
+                className="grid grid-cols-12 border-b gap-5 pb-10 border-black mb-10"
                 key={i}
               >
                 <div className="col-span-2">

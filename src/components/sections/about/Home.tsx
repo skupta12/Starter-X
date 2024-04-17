@@ -50,6 +50,7 @@ const Home = () => {
               <Image
                 className="object-cover"
                 fill
+                loading="eager"
                 sizes="(min-width: 1460px) 483px, (min-width: 1040px) calc(35.5vw - 28px), 
                 (min-width: 780px) calc(100vw - 114px), calc(100vw - 34px)"
                 src={AboutImage2}
