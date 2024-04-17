@@ -26,11 +26,11 @@ export default function About() {
               />
               <LinkButton title="Learn more" />
             </div>
-            <div className="border border-black relative overflow-hidden 
+            <div className="relative overflow-hidden 
             sm:h-[400px] h-[300px] lg:mb-0 mb-5">
               <Image
                 priority
-                className="object-cover"
+                className="object-cover border border-black"
                 fill
                 src={AboutImage1}
                 alt="about image 1"
@@ -38,10 +38,10 @@ export default function About() {
             </div>
           </div>
           <div className="lg:col-span-5 col-span-12">
-            <div className="border border-black sm:h-[400px] 
+            <div className="sm:h-[400px] 
             h-[300px] relative overflow-hidden">
               <Image
-                className="object-cover"
+                className="object-cover border border-black"
                 fill
                 src={AboutImage2}
                 alt="about image 2"
