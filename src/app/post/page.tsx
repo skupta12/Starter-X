@@ -1,6 +1,9 @@
 import Post from "@/components/sections/blog-sections/Post"
 import Home from "@/components/sections/blog-sections/Home";
-import Subscribe from "@/components/sections/blog-sections/Subscribe";
+import { Suspense } from "react";
+import SkeletonItem from "@/components/Skeleton";
+
+
 
 export default async function post() {
 
@@ -8,7 +11,10 @@ export default async function post() {
     <>
       <Home />
       {/* <Subscribe /> */}
-      {/* <Post /> */}
+       <Suspense fallback={<div>Loading...</div>}> {/*weird behavior after reload the page */}
+        <Post />
+      </Suspense>
+   
     </>
   );
 }

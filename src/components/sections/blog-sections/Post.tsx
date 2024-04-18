@@ -8,6 +8,11 @@ import ActiveCategory from "@/components/ActiveCategory";
 
 export default async function Post() {
 
+  // const delayData = async () => {
+  //   await new Promise((resolve) => setTimeout(resolve, 10000));
+  //   return await fetchBlog();
+  // };
+
   const blogs = await fetchBlog();
 
   return (

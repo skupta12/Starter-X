@@ -35,7 +35,7 @@ export const LinkButton = ({ title, className, href = "/" }: ButtonProps) => {
   return (
     <Link href={href} onClick={() => router.push(href)}>
       <button className={`${className} sm:text-[18px] font-medium text-[17px]
-       opacity-75 sm:w-auto w-full justify-center inline-flex items-center 
+      text-gray-600 sm:w-auto w-full justify-center inline-flex items-center 
       group`}>
         {title}
           <ArrowUpRight
