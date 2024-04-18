@@ -2,15 +2,13 @@ import React from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import Link from "next/link";
 import { footer, media } from "@/lib/data";
-import styles from "@/style";
 import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="pt-14 pb-5">
       <MaxWidthWrapper>
-        <div className="mx-auto w-full">
-          <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-5">
+          <div className="grid grid-cols-2 gap-8 py-8 md:grid-cols-5">
             {footer.map((item, index) => (
               <div key={index}>
                 <div>
@@ -46,7 +44,6 @@ const Footer = () => {
               ))}
             </div>
           </div>
-        </div>
       </MaxWidthWrapper>
     </footer>
   );

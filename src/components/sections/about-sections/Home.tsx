@@ -62,7 +62,7 @@ const Home = () => {
         <div className="grid grid-cols-12 lg:gap-x-16 gap-x-6 gap-y-10">
           {numbers.map(({ id, title, number, icon: Icon, color }) => {
             return (
-              <div key={id} className="lg:col-span-3 md:col-span-6 col-span-12">
+              <div key={id} className="lg:col-span-3 col-span-6">
                 <div
                   className="flex items-center lg:text-[56px] md:text-[48px] 
                       sm:text-[36px] text-[32px] font-medium leading-[1]"

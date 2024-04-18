@@ -529,7 +529,23 @@ export const aboutFeatures = [
     text: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     alt: "features icon"
   },
+]
 
+export const location = [
+  {
+    id: 1,
+    city: "New York, NY",
+    address: "8186 West Rocky River Street Buffalo, NY 14221",
+    phoneNumber: "(345) 352 - 7416",
+    email: "newyork@starter.com"
+  },
+  {
+    id: 2,
+    city: "San Francisco, CA",
+    address: "58 Middle San Francisco, California (CA), 94124",
+    phoneNumber: "(347) 248 - 1840",
+    email: "sanfrancisco@starter.com"
+  },
 ]
 
 
