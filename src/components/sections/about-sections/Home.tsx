@@ -12,7 +12,7 @@ const Home = () => {
       <MaxWidthWrapper>
         <div className="grid grid-cols-12 lg:gap-x-10 gap-x-5 items-center mb-20">
           <div className="lg:col-span-7 col-span-12">
-            <div className="text">
+            <div>
               <h1 className={styles.heading1}>About our wonderful company</h1>
               <p className={`${styles.paragraph} mt-4 mb-7`}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

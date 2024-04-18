@@ -19,7 +19,7 @@ export const nav = [
   {
     id: 4,
     name: "Blog",
-    href: "/blog",
+    href: "/post",
   },
   {
     id: 5,

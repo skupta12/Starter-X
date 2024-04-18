@@ -1,9 +1,14 @@
-import React from 'react'
+import Post from "@/components/sections/blog-sections/Post"
+import Home from "@/components/sections/blog-sections/Home";
+import Subscribe from "@/components/sections/blog-sections/Subscribe";
 
-export default function page() {
+export default async function post() {
+
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <Home />
+      {/* <Subscribe /> */}
+      <Post />
+    </>
+  );
 }
