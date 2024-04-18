@@ -4,31 +4,9 @@ import styles from "@/style";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import ActiveCategory from "@/components/ActiveCategory";
 
 export default async function Post() {
-    
-  const linkButtons = [
-    {
-      id: 1,
-      href: "/",
-      title: "All",
-    },
-    {
-      id: 2,
-      href: "/",
-      title: "Business",
-    },
-    {
-      id: 3,
-      href: "/",
-      title: "Finances",
-    },
-    {
-      id: 4,
-      href: "/",
-      title: "Management",
-    },
-  ];
 
   const blogs = await fetchBlog();
 
@@ -39,17 +17,7 @@ export default async function Post() {
           <div className="flex-1">
             <h2 className={`${styles.heading2}`}>News & articles</h2>
           </div>
-          <div className="flex flex-wrap justify-center">
-            {linkButtons.map((item, i) => (
-              <Link
-                className="px-3 sm:text-[18px] border-r border-black last:border-r-0"
-                key={i}
-                href={item.href}
-              >
-                {item.title}
-              </Link>
-            ))}
-          </div>
+         <ActiveCategory />
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1">
           {blogs?.map((item, i) => (

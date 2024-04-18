@@ -8,7 +8,7 @@ export default async function post() {
     <>
       <Home />
       {/* <Subscribe /> */}
-      <Post />
+      {/* <Post /> */}
     </>
   );
 }
