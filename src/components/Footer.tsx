@@ -28,7 +28,7 @@ const Footer = () => {
               </div>
             ))}
           </div>
-          <div className="px-4 pt-6 md:flex md:items-center md:justify-between border-t border-black">
+          <div className="px-4 pt-6 md:flex md:items-center md:justify-between border-t border-primary-100">
             <span className="sm:text-center">
               © 2024 <Link href="/">Starter X</Link>. All Rights Reserved.
             </span>

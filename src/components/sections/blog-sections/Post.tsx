@@ -23,7 +23,7 @@ export default async function Post() {
             <Link
               key={i}
               href={`/post/${item.url}`} 
-              className={`group flex flex-col border border-t border-black 
+              className={`group flex flex-col border border-t border-primary-100 
               ${i < 8 ? "border-b-0" : ""}
               ${i === 9 ? "border-t-0 lg:border" :  ""}
               ${i % 2 === 0 ? "lg:border-r-0 border-r" : ""}`}
@@ -31,7 +31,7 @@ export default async function Post() {
               <div className="lg:p-12 md:p-8 p-5">
                 <div
                   className="mb-7 relative overflow-hidden md:h-[340px] 
-              h-[200px] border border-black"
+              h-[200px] border border-primary-100"
                 >
                   <Image
                     quality={90}
@@ -47,7 +47,7 @@ export default async function Post() {
               </div>
               <div
                 className="flex justify-between items-center mt-auto 
-            py-5 lg:px-14 px-8 border-t border-black gap-3"
+            py-5 lg:px-14 px-8 border-t border-primary-100 gap-3"
               >
                 <div className="sm:text-[18px] font-medium">
                   {item.label} - &nbsp; {item.date}

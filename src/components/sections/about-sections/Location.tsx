@@ -19,7 +19,7 @@ const Location = () => {
           <div className="lg:col-span-8 col-span-12">
             <div
               className="relative overflow-hidden lg:h-full 
-            sm:h-[400px] h-[300px] border border-black"
+            sm:h-[400px] h-[300px] border border-primary-100"
             >
               <Image
                 className="object-cover"
@@ -32,11 +32,11 @@ const Location = () => {
           </div>
           <div
             className="lg:col-span-4 col-span-12 border-t 
-          lg:border-l-0 border-l border-r border-b border-black"
+          lg:border-l-0 border-l border-r border-b border-primary-100"
           >
             {location.map(({ id, city, address, phoneNumber, email }) => (
               <div
-                className="p-8 flex flex-col gap-6 last:border-t border-black"
+                className="p-8 flex flex-col gap-6 last:border-t border-primary-100"
                 key={id}
               >
                 <div>

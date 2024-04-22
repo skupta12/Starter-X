@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <Navbar
-      className={`md:py-3 border-b border-black`}
+      className={`md:py-3 border-b border-primary-100`}
       classNames={{
         wrapper: "wrapper-classes",
       }}

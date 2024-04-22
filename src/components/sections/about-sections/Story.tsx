@@ -5,7 +5,7 @@ import React from "react";
 const Story = () => {
   return (
     <section className="lg:py-36 lg:pb-24 py-16 bg-background-200">
-      <MaxWidthWrapper className="pb-20 border-b border-opacity-50 border-black">
+      <MaxWidthWrapper className="pb-20 border-b border-opacity-50 border-primary-100">
         <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-20 gap-10 items-center">
           <div>
             <h2 className={styles.heading2}>

@@ -24,8 +24,8 @@ export default async function Page({ params }: { params: { url: string } }) {
             &nbsp; - &nbsp;
             <span>{date}</span>
           </div>
-          <div className="relative overflow-hidden h-[700px]">
-            <Image fill className="object-cover" src={srcDetails} alt={text}/>
+          <div className="relative overflow-hidden h-[700px] border border-primary-100">
+            <Image loading="eager" fill className="object-cover" src={srcDetails} alt={text}/>
           </div>
         </div>
       </MaxWidthWrapper>

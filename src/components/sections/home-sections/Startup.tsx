@@ -19,7 +19,7 @@ const Startup = () => {
             </h2>
           </div>
           <div className="grid grid-cols-12 lg:gap-8 gap-5">
-            <div className="lg:col-span-4 col-span-12 border border-black relative overflow-hidden">
+            <div className="lg:col-span-4 col-span-12 border border-primary-100 relative overflow-hidden">
               <div className="xs:h-[800px] h-[600px]">
                 <Image
                   fill
@@ -31,7 +31,7 @@ const Startup = () => {
             </div>
             <div className="lg:col-span-8 col-span-12">
               <div className="grid grid-cols-12 lg:gap-8 gap-5 h-full">
-                <div className="col-span-12 border border-black sm:p-14 p-7">
+                <div className="col-span-12 border border-primary-100 sm:p-14 p-7">
                   <div className="flex sm:flex-row flex-col gap-x-5">
                     <div className="flex-shrink-0 sm:mb-0 mb-5">
                       <Image
@@ -53,7 +53,7 @@ const Startup = () => {
                   </div>
                 </div>
                 <div
-                  className="sm:col-span-6 col-span-12 border border-black 
+                  className="sm:col-span-6 col-span-12 border border-primary-100
                 sm:py-14 sm:px-8 p-7"
                 >
                   <div className="mb-5">
@@ -74,7 +74,7 @@ const Startup = () => {
                   </div>
                 </div>
                 <div
-                  className="sm:col-span-6 col-span-12 border border-black 
+                  className="sm:col-span-6 col-span-12 border border-primary-100
                 sm:py-14 sm:px-8 p-7"
                 >
                   <div className="mb-5">

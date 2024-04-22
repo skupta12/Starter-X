@@ -29,7 +29,7 @@ const Home = () => {
             </div>
             <div
               className="relative overflow-hidden 
-            sm:h-[400px] h-[300px] lg:mb-0 mb-5 border border-black"
+            sm:h-[400px] h-[300px] lg:mb-0 mb-5 border border-primary-100"
             >
               <Image
                 loading="eager"
@@ -44,7 +44,7 @@ const Home = () => {
           </div>
           <div className="lg:col-span-5 col-span-12">
             <div
-              className="sm:h-[400px] border border-black
+              className="sm:h-[400px] border border-primary-100
             h-[300px] relative overflow-hidden"
             >
               <Image

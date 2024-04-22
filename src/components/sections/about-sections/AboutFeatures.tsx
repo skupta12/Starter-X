@@ -20,7 +20,7 @@ const Features = () => {
           <div>
             {aboutFeatures.map((item, i) => (
               <div
-                className="grid grid-cols-12 border-b gap-5 pb-10 border-black mb-10"
+                className="grid grid-cols-12 border-b gap-5 pb-10 border-primary-100 mb-10"
                 key={i}
               >
                 <div className="col-span-2">

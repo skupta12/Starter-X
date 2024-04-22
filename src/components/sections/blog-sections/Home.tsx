@@ -19,7 +19,7 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <Link className="group flex flex-col border border-black" href="/">
+          <Link className="group flex flex-col border border-primary-100" href="/">
             <div className="relative overflow-hidden md:h-[500px] sm:h-[350px] h-[300px]">
               <Image
                 fill
@@ -30,7 +30,7 @@ const Home = () => {
                 alt="post image 1"
               />
             </div>
-            <div className="grid grid-cols-12 gap-5 lg:p-10 p-5 items-center group-hover:opacity-70 duration-300 border-t border-black">
+            <div className="grid grid-cols-12 gap-5 lg:p-10 p-5 items-center group-hover:opacity-70 duration-300 border-t border-primary-100">
               <div className="lg:col-span-8 col-span-12">
                 <h3 className={`${styles.heading3}`}>
                   Is it smart to invest in cryptocurrency in 2025? What you need

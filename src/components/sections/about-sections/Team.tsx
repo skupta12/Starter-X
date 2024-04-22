@@ -19,7 +19,7 @@ const Team = () => {
               <div className="md:col-span-4 sm:col-span-6 col-span-12" key={i}>
                 <div
                   className="relative
-                  border border-black mb-5"
+                  border border-primary-100 mb-5"
                 >
                   <Link href={item.href}>
                     <div className="relative overflow-hidden sm:h-[498px] h-[350px]">
@@ -36,7 +36,7 @@ const Team = () => {
                   </Link>
 
                   <div className="absolute flex items-center bottom-5 right-5 gap-5 
-                  px-2 py-3 bg-white border border-black">
+                  px-2 py-3 bg-white border border-primary-100">
                     {item.media.map((mediaItem, i) => (
                       <Link
                         className="hover:scale-110 duration-200"

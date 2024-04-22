@@ -37,7 +37,7 @@ const ActiveCategory = () => {
       {linkButtons.map((item, i) => (
         <Link
           className={clsx(
-            "px-3 sm:text-[18px] border-r border-black last:border-r-0",
+            "px-3 sm:text-[18px] border-r border-primary-100 last:border-r-0",
             {
               "font-medium": pathname === item.href,
             }

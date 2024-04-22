@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       className={`lg:py-24 py-16 relative overflow-hidden border-b 
-      border-black sm:h-auto h-[650px]`}
+      border-primary-100 sm:h-auto h-[650px]`}
     >
       <MaxWidthWrapper>
         <div className="grid grid-cols-12 gap-4 items-center">

@@ -16,7 +16,7 @@ const Testimonial = () => {
               <div
                 key={i}
                 className="lg:col-span-4 content-end
-              col-span-12 border border-black bg-background-200"
+              col-span-12 border border-primary-100 bg-background-200"
               >
                 <div className="sm:px-[40px] px-[30px] sm:pt-[64px] pt-[54px] sm:pb-[130px] pb-[100px]">
                   <p className="sm:text-[22px] text-[20px] font-medium">
@@ -25,12 +25,12 @@ const Testimonial = () => {
                 </div>
                 <div
                   style={{ backgroundColor: item.color }}
-                  className="this-block border-t border-black flex 
+                  className="this-block border-t border-primary-100 flex 
                   items-center gap-4 py-[16px] px-[32px]"
                 >
                   <div>
                     <Image
-                      className="rounded-full border border-black"
+                      className="rounded-full border border-primary-100"
                       width={62}
                       height={62}
                       src={item.img}
