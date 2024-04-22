@@ -1,25 +1,19 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import { fetchBlog } from "@/lib/fetchingData";
 import styles from "@/style";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import ActiveCategory from "@/components/ActiveCategory";
+import { blogs } from "@/lib/data";
 
 export default async function Post() {
 
-  // const delayData = async () => {
-  //   await new Promise((resolve) => setTimeout(resolve, 10000));
-  //   return await fetchBlog();
-  // };
-
-  const blogs = await fetchBlog();
-
   return (
-    <section className={styles.sectionPadding}>
+    <section className={`${styles.sectionPadding} bg-background-200`}>
       <MaxWidthWrapper>
-        <div className="flex md:flex-row flex-col gap-y-3 gap-x-3 items-center justify-between sm:mb-14 mb-10">
-          <div className="flex-1">
+        <div className="flex md:flex-row flex-col gap-3
+        items-center justify-between sm:mb-14 mb-10">
+          <div className="flex-1 md:mb-0 mb-4">
             <h2 className={`${styles.heading2}`}>News & articles</h2>
           </div>
          <ActiveCategory />
@@ -28,10 +22,12 @@ export default async function Post() {
           {blogs?.map((item, i) => (
             <Link
               key={i}
+           
+              href="/"   
               className={`group flex flex-col border border-t border-black 
-              ${i < 4 ? "border-b-0" : ""} 
+              ${i < 8 ? "border-b-0" : ""}
+              ${i === 9 ? "border-t-0 lg:border" :  ""}
               ${i % 2 === 0 ? "lg:border-r-0 border-r" : ""}`}
-              href="/"
             >
               <div className="lg:p-12 md:p-8 p-5">
                 <div
@@ -41,7 +37,7 @@ export default async function Post() {
                   <Image
                     quality={90}
                     fill
-                    className="object-cover group-hover:scale-110 duration-300"
+                    className="object-cover md:group-hover:scale-110 duration-300"
                     src={item.src}
                     alt={`post image ${i}`}
                   />

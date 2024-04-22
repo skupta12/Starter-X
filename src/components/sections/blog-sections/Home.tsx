@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <section className={`lg:py-24 py-16`}>
+    <section className={`lg:py-24 py-16 bg-background-200`}>
       <MaxWidthWrapper>
         <div className="text-center mb-16">
           <h1 className={`${styles.heading1} mx-auto mb-4`}>
