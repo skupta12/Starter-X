@@ -22,8 +22,7 @@ export default async function Post() {
           {blogs?.map((item, i) => (
             <Link
               key={i}
-           
-              href="/"   
+              href={`/post/${item.url}`} 
               className={`group flex flex-col border border-t border-black 
               ${i < 8 ? "border-b-0" : ""}
               ${i === 9 ? "border-t-0 lg:border" :  ""}
