@@ -4,6 +4,7 @@ import styles from "@/style";
 import Image from "next/image";
 
 export default async function Page({ params }: { params: { url: string } }) {
+  
   const post = blogs?.find((obj) => obj.url === params.url);
 
   if (!post) {
