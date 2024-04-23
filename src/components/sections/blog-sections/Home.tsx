@@ -2,6 +2,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import styles from "@/style";
 import Image from "next/image";
 import Link from "next/link";
+import PostImage from "/public/post-image-1.jpg";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
                 loading="eager"
                 quality={100}
                 className="object-cover md:group-hover:scale-110 duration-300"
-                src="/blog/blog-details/blog-details-1.jpg"
+                src={PostImage}
                 alt="post image 1"
               />
             </div>
