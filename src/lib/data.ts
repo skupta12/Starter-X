@@ -601,7 +601,7 @@ export const blogs = [
     date: "Aug 16, 2024",
   },
   {
-    id: "3958dc9e-712f-4377-85e9-fec4b6a63423",
+    id: "3958dc9e-712f-4377-85e9-fec4b6a66423",
     url: "the-smart-way-to-grow-your-money-while-you-sleep",
     src: "/blog/blog-8.jpg",
     label: "Management",

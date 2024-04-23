@@ -8,10 +8,12 @@ import Link from "next/link";
 import { blogs } from "@/lib/data";
 
 const ManagementPage = () => {
-  
+
   const managementPosts = blogs
     .filter((post) => post.label === "Management")
     .slice(0, 5);
+
+  console.log(managementPosts)
 
   return (
     <section className="lg:py-24 py-16">
