@@ -610,8 +610,8 @@ export const blogs = [
   {
     id: "3958dc9e-712f-4377-85e9-fec4b6a63423",
     url: "the-smart-way-to-grow-your-money-while-you-sleep",
-    src: "/blog/blog-2.jpg",
-    srcDetails: "/blog/blog-details/blog-details-2.jpg",
+    src: "/blog/blog-5.jpg",
+    srcDetails: "/blog/blog-details/blog-details-5.jpg",
     label: "Management",
     text: "How to invest your money: The smart way to grow your money while you sleep",
     date: "May 10, 2024",

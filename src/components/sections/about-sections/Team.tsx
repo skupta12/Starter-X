@@ -24,7 +24,7 @@ const Team = () => {
                   <Link href={item.href}>
                     <div className="relative overflow-hidden sm:h-[498px] h-[350px]">
                       <Image
-                        className="object-cover hover:scale-110 duration-400"
+                        className="object-cover md:hover:scale-110 duration-400"
                         fill
                         sizes="(min-width: 1460px) 383px, (min-width: 1040px) calc(28.25vw - 24px), (min-width: 780px) 
                         calc(33.33vw - 61px), (min-width: 640px) calc(50vw - 30px), calc(100vw - 34px)"
@@ -56,7 +56,7 @@ const Team = () => {
                 </div>
                 <div>
                   <h3 className={`${styles.heading3} mb-1`}>{item.name}</h3>
-                  <p className="text-[20px] font-medium opacity-75">
+                  <p className="sm:text-[20px] font-medium opacity-75">
                     {item.position}
                   </p>
                 </div>
