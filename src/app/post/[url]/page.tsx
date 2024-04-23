@@ -17,7 +17,7 @@ export default function Page({ params }: { params: { url: string } }) {
     return <div>Error</div>;
   }
 
-  const { text, label, date, srcDetails } = post;
+  const { text, label, date, src } = post;
 
   return (
     <>
@@ -39,10 +39,11 @@ export default function Page({ params }: { params: { url: string } }) {
               <Image
                 sizes="(min-width: 1460px) 1218px, (min-width: 780px) 83.64vw, calc(100vw - 34px)"
                 loading="eager"
+                priority
                 fill
                 quality={100}
                 className="object-cover"
-                src={srcDetails}
+                src={src}
                 alt={text}
               />
             </div>

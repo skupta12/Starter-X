@@ -35,7 +35,7 @@ const ManagementPage = () => {
                href={item.url}
              >
                <div className="lg:p-12 md:p-8 p-5">
-                 <div className="mb-7 relative overflow-hidden md:h-[320px] 
+                 <div className="mb-7 relative overflow-hidden md:h-[400px] 
                  h-[200px] border border-primary-100">
                    <Image
                      fill
