@@ -601,8 +601,8 @@ export const blogs = [
   {
     id: "3958dc9e-712f-4377-85e9-fec4b6a54427",
     url: "latest-technological-advancements-explored",
-    src: "/blog/blog-1.jpg",
-    srcDetails: "/blog/blog-details/blog-details-1.jpg",
+    src: "/blog/blog-7.jpg",
+    srcDetails: "/blog/blog-details/blog-details-7.jpg",
     label: "Business",
     text: "Latest technological advancements explored",
     date: "Aug 16, 2024",
@@ -610,8 +610,8 @@ export const blogs = [
   {
     id: "3958dc9e-712f-4377-85e9-fec4b6a63423",
     url: "the-smart-way-to-grow-your-money-while-you-sleep",
-    src: "/blog/blog-5.jpg",
-    srcDetails: "/blog/blog-details/blog-details-5.jpg",
+    src: "/blog/blog-8.jpg",
+    srcDetails: "/blog/blog-details/blog-details-8.jpg",
     label: "Management",
     text: "How to invest your money: The smart way to grow your money while you sleep",
     date: "May 10, 2024",
@@ -619,8 +619,8 @@ export const blogs = [
   {
     id: "6e82d1b3-6c6b-4b59-9bb0-afe0fe69a0b3",
     url: "reshaping-the-tech-industry-through-innovation",
-    src: "/blog/blog-3.jpg",
-    srcDetails: "/blog/blog-details/blog-details-3.jpg",
+    src: "/blog/blog-9.jpg",
+    srcDetails: "/blog/blog-details/blog-details-9.jpg",
     label: "Management",
     text: "Reshaping the tech industry through innovation",
     date: "Oct 12, 2024",
@@ -628,13 +628,30 @@ export const blogs = [
   {
     id: "1c2d5f9e-8f8d-4e91-b0af-31b2e2a54f71",
     url: "latest-industry-trends-analyzed",
-    src: "/blog/blog-4.jpg",
-    srcDetails: "/blog/blog-details/blog-details-4.jpg",
+    src: "/blog/blog-10.jpg",
+    srcDetails: "/blog/blog-details/blog-details-10.jpg",
     label: "Finances",
     text: "Latest industry trends analyzed",
     date: "Nov 21, 2024",
   },
+  {
+    id: "1c2d5f9e-8f8d-4e91-b0af-31b2e2a54f41",
+    url: "strategies-for-seamless-mobile-apps",
+    src: "/blog/blog-2.jpg",
+    srcDetails: "/blog/blog-details/blog-details-2.jpg",
+    label: "Business",
+    text: "Strategies for seamless mobile apps",
+    date: "Jun 24, 2024",
+  },
+  {
+    id: "1c2d5f9e-8d8d-4e91-b0af-31b2e2a54f41",
+    url: "examining-our-branding-strategy-closely",
+    src: "/blog/blog-1.jpg",
+    srcDetails: "/blog/blog-details/blog-details-1.jpg",
+    label: "Finances",
+    text: "Examining our branding strategy closely",
+    date: "May 21, 2024",
+  }
 ];
-
 
 

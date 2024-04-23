@@ -1,7 +1,7 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Image from "next/image";
-import PostImage1 from "/public/post-image-1.jpg";
-import PostImage2 from "/public/post-image-2.jpg";
+import PostImage1 from "/public/blog/blog-1.jpg";
+import PostImage2 from "/public/blog/blog-2.jpg";
 import styles from "@/style";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -13,12 +13,12 @@ const Post = () => {
       <MaxWidthWrapper>
         <div className="flex sm:flex-row flex-col gap-y-3 items-center justify-between sm:mb-14 mb-10">
           <h2 className={`${styles.heading2}`}>News & articles</h2>
-          <LinkButton href="/post" title="Browse all posts"/>
+          <LinkButton title="Browse all posts"/>
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1">
           <Link
             className="group flex flex-col border border-primary-100"
-            href="/"
+            href="/post/is-it-smart-to-invest-in-cryptocurrency-in-2025"
           >
             <div className="lg:p-12 md:p-8 p-5">
               <div className="mb-7 relative overflow-hidden md:h-[320px] 
@@ -50,14 +50,14 @@ const Post = () => {
           <Link
             className="group flex flex-col border-primary-100 lg:border-t 
             border-t-0 border-b lg:border-l-0 border-l border-r"
-            href="/"
+            href="/post/how-to-save-money"
           >
             <div className="lg:p-12 md:p-8 p-5">
               <div className="mb-7 relative overflow-hidden md:h-[320px] 
               h-[200px] border border-primary-100">
                 <Image
                   fill
-                  className="object-cover md:group-hover:scale-110 duration-300"
+                  className="object-cover group-hover:scale-110 duration-300"
                   src={PostImage2}
                   alt="post image 2"
                 />

@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import Link from "next/link";
 
-const ActiveCategory = () => {
+const ActiveCategory = ({ className }: { className?: string }) => {
 
   const linkButtons = [
     {
@@ -33,13 +33,13 @@ const ActiveCategory = () => {
   const pathname = usePathname();
   
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className={`${className} flex flex-wrap justify-center`}>
       {linkButtons.map((item, i) => (
         <Link
           className={clsx(
             "px-3 sm:text-[18px] border-r border-primary-100 last:border-r-0",
             {
-              "font-medium": pathname === item.href,
+              "font-medium text-black": pathname === item.href,
             }
           )}
           key={i}
