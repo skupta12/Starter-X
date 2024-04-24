@@ -19,7 +19,7 @@ export default function TeamMember({ params }: { params: { url: string } }) {
           <div className="lg:col-span-5 col-span-12">
             <div
               className="border border-primary-100 relative overflow-hidden 
-            lg:h-[607px] md:h-[500px] sm:h-[400px] h-[300px]"
+            lg:h-[607px] md:h-[500px] h-[400px]"
             >
               <Image
                 className="object-cover"

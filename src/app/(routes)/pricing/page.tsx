@@ -20,7 +20,7 @@ export default function Pricing() {
         </div>
         <div className="grid grid-cols-12 gap-6">
           {pricing.map(({ id, title, text, listTitle, price, href }, i) => (
-            <div className="col-span-4 border border-primary-100" key={id}>
+            <div className="lg:col-span-4 md:col-span-6 col-span-12 border border-primary-100" key={id}>
               <div
                 className={`${
                   i === 1 ? "bg-primary-100" : ""
