@@ -259,8 +259,9 @@ export const aboutTestimonial = [
     name: "John Carter",
     position: "CEO & Founder",
     image: "/about-testimonial-1.jpg",
-    alt: "testimonial image",
-    href: "/",
+    alt: "john's carter image",
+    url: "john-carter",
+    href: "/team-members/john-carter",
     media: [
       {
         id: 1,
@@ -287,8 +288,9 @@ export const aboutTestimonial = [
     name: "Sophie Moore",
     position: "CTO & Co-Founder",
     image: "/about-testimonial-2.jpg",
-    alt: "testimonial image",
-    href: "/",
+    alt: "sophie's moore image",
+    url: "sophie-moore",
+    href: "/team-members/sophie-moore",
     media: [
       {
         id: 1,
@@ -315,8 +317,9 @@ export const aboutTestimonial = [
     name: "Matt Cannon",
     position: "VP of Product",
     image: "/about-testimonial-3.jpg",
-    alt: "testimonial image",
-    href: "/",
+    alt: "matt's cannon image",
+    url: "matt-cannon",
+    href: "/team-members/matt-cannon",
     media: [
       {
         id: 1,

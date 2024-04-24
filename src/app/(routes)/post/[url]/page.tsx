@@ -19,8 +19,6 @@ export default function Page({ params }: { params: { url: string } }) {
 
   const { text, label, date, src } = post;
 
-  console.log(post)
-
   return (
     <>
       <section className="lg:pt-24 lg:pb-32 pb-16 pt-16 bg-background-200">

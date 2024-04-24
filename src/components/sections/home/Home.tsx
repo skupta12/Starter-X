@@ -20,7 +20,7 @@ const Home = () => {
               Consectetur tortor nunc aliquam consectetur semper augue at.
             </p>
             <div className="sm:flex items-center gap-x-5">
-              <Button href="/about" className={`sm:mb-0 mb-5 ${styles.blackButton}`} title="Get Started" />
+              <Button href="/pricing" className={`sm:mb-0 mb-5 ${styles.blackButton}`} title="Get Started" />
               <LinkButton title="Learn more" />
             </div>
           </div>

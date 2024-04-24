@@ -8,7 +8,7 @@ const Features = () => {
     <section className={styles.sectionPadding}>
       <MaxWidthWrapper>
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-20">
-          <div className="lg:pr-14">
+          <div className="lg:pr-14 sticky">
             <h3 className={`${styles.heading2} mb-5`}>
               The values that shape everything we do at Starter X
             </h3>

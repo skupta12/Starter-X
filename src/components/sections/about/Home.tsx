@@ -26,7 +26,7 @@ const Home = () => {
                 className={`sm:mb-0 mb-5 ${styles.blackButton}`}
                 title="Get Started"
               />
-              <LinkButton title="Learn more" />
+              <LinkButton href="/about" title="Learn more" />
             </div>
             <div
               className="relative overflow-hidden 

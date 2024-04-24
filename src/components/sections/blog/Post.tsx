@@ -35,7 +35,6 @@ export default async function Post() {
                 >
                   <Image
                     sizes="(min-width: 1460px) 1218px, (min-width: 780px) 83.64vw, calc(100vw - 34px)"
-                    quality={100}
                     fill
                     className="object-cover md:group-hover:scale-110 duration-300"
                     src={item.src}
