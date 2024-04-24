@@ -30,7 +30,6 @@ const LatestPosts = ({
               h-[200px] border border-primary-100"
             >
               <Image
-                quality={100}
                 fill
                 className="object-cover md:group-hover:scale-110 duration-300"
                 src={src}

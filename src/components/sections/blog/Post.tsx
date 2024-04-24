@@ -24,8 +24,8 @@ export default async function Post() {
               key={i}
               href={`/post/${item.url}`} 
               className={`group flex flex-col border border-t border-primary-100 
-              ${i < 4 ? "lg:border-b-0" : ""}
-              ${i === 4 ? "border-t-0 lg:border" :  ""}
+              ${i < 4 ? "border-b-0" : ""}
+              ${i === 4 ? "lg:border-b border-b-0" : ""}
               ${i % 2 === 0 ? "lg:border-r-0 border-r" : ""}`}
             >
               <div className="lg:p-12 md:p-8 p-5">

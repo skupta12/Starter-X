@@ -189,7 +189,7 @@ export default function Page({ params }: { params: { url: string } }) {
             <LinkButton href="/post" title="Browse all posts" />
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1">
-          {blogs.slice(3, 5).map((item, i) => (
+          {blogs.slice(-2).map((item, i) => (
             <LatestPosts
               className={i === 0 ? "lg:border-r-0 lg:border-b border-b-0" : ""}
               key={i}
