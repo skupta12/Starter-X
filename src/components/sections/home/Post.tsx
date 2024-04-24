@@ -13,7 +13,7 @@ const Post = () => {
       <MaxWidthWrapper>
         <div className="flex sm:flex-row flex-col gap-y-3 items-center justify-between sm:mb-14 mb-10">
           <h2 className={`${styles.heading2}`}>News & articles</h2>
-          <LinkButton title="Browse all posts"/>
+          <LinkButton href="/post" title="Browse all posts"/>
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1">
           <Link

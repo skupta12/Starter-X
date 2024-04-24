@@ -19,7 +19,7 @@ const Cta = () => {
           </p>
 
           <div className="sm:flex items-center gap-x-5">
-            <Button className={`${styles.whiteButton} sm:mb-0 mb-5`} title="Get Started" />
+            <Button href="/pricing" className={`${styles.whiteButton} sm:mb-0 mb-5`} title="Get Started" />
             <LinkButton className="text-white" title="Learn more" />
           </div>
         </div>

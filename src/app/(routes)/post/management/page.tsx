@@ -11,9 +11,9 @@ const ManagementPage = () => {
 
   const managementPosts = blogs
     .filter((post) => post.label === "Management")
-    .slice(0, 5);
+    .slice(0, 4);
 
-  console.log(managementPosts)
+  // console.log(managementPosts)
 
   return (
     <section className="lg:py-24 py-16">
@@ -47,6 +47,8 @@ const ManagementPage = () => {
                     <Image
                       loading="eager"
                       fill
+                      sizes="(min-width: 1460px) 511px, (min-width: 1040px) 
+                      calc(42.5vw - 101px), (min-width: 780px) calc(100vw - 180px), calc(100vw - 76px)"
                       className="object-cover md:group-hover:scale-110 duration-300"
                       src={item.src}
                       alt={`post image ${item.id}`}

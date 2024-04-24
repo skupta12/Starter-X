@@ -22,6 +22,7 @@ const Home = () => {
 
             <div className="sm:flex items-center gap-x-5 mb-16">
               <Button
+                href="/pricing"
                 className={`sm:mb-0 mb-5 ${styles.blackButton}`}
                 title="Get Started"
               />

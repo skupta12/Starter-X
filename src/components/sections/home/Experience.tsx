@@ -16,6 +16,7 @@ const Experience = () => {
           </div>
           <div className="button-block sm:flex items-center lg:justify-self-end gap-x-5">
             <Button
+              href="/pricing"
               className={`${styles.blackButton} sm:mb-0 mb-5`}
               title="Get Started"
             />

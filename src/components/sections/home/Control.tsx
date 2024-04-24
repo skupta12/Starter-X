@@ -36,6 +36,7 @@ const Control = () => {
             </div>
             <div className="sm:flex items-center gap-x-5 lg:justify-self-end lg:col-span-5 col-span-12">
               <Button
+                href="/pricing"
                 className={`${styles.whiteButton} sm:mb-0 mb-5`}
                 title="Get Started"
               />

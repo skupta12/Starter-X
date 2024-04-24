@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="pt-14 pb-5">
+    <footer className="pt-14 pb-5 bg-background-200">
       <MaxWidthWrapper>
           <div className="grid grid-cols-2 gap-8 py-8 md:grid-cols-5">
             {footer.map((item, index) => (

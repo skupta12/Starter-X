@@ -545,7 +545,7 @@ export const location = [
 
 export const blogs = [
   {
-    id: "3958dc9e-712f-4277-85e9-fec4b6a64420",
+    id: "3958dc9e-712f-4177-85e9-fec4b6a64420",
     url: "is-it-smart-to-invest-in-cryptocurrency-in-2025",
     src: "/blog/blog-1.jpg",
     label: "Business",
@@ -553,7 +553,7 @@ export const blogs = [
     date: "Apr 27, 2024",
   },
   {
-    id: "3958dc9e-712f-4377-85e9-fec4b6a64421",
+    id: "3958dc9e-712f-4377-85e9-feb4b6a64421",
     url: "how-to-save-money",
     src: "/blog/blog-2.jpg",
     label: "Finances",
@@ -561,7 +561,7 @@ export const blogs = [
     date: "May 10, 2024",
     },
   {
-    id: "3958dc9e-712f-4377-85e9-fec4b6a64422",
+    id: "3958dc9e-712f-4377-85e9-fec8b6a64422",
     url: "how-to-make-a-great-impression-from-the-first-moment",
     src: "/blog/blog-3.jpg",
     label: "Management",
@@ -569,7 +569,7 @@ export const blogs = [
     date: "Apr 1, 2024",
   },
   {
-    id: "3958dc9e-712f-4377-85e9-fec4b6a64427",
+    id: "3958dc9e-712f-4377-85e9-feb4b6a64427",
     url: "what-is-an-etf-and-how-to-buy-them-from-your-banking-app",
     src: "/blog/blog-4.jpg",
     label: "Business",
@@ -577,7 +577,7 @@ export const blogs = [
     date: "Aug 16, 2024",
   },
   {
-    id: "3958dc9e-712f-4377-85e9-fec4b6a64423",
+    id: "3958dc9e-712f-4377-85e9-fec4b4a64423",
     url: "the-smart-way-to-grow-your-money-while-you-sleep",
     src: "/blog/blog-5.jpg",
     label: "Management",
@@ -585,7 +585,7 @@ export const blogs = [
     date: "May 10, 2024",
   },
   {
-    id: "3958dc9e-712f-4377-85e9-fec4b6a64426",
+    id: "3958dc9e-712f-4377-85e9-fec4c6a64426",
     url: "how-to-maximize-your-productivity-while-working-from-home",
     src: "/blog/blog-6.jpg",
     label: "Finances",
@@ -593,7 +593,7 @@ export const blogs = [
     date: "Jun 5, 2024",
   },
   {
-    id: "3958dc9e-712f-4377-85e9-fec4b6a54427",
+    id: "3958dc9e-712f-4377-85e9-fec4b6a54327",
     url: "latest-technological-advancements-explored",
     src: "/blog/blog-7.jpg",
     label: "Business",
@@ -601,15 +601,15 @@ export const blogs = [
     date: "Aug 16, 2024",
   },
   {
-    id: "3958dc9e-712f-4377-85e9-fec4b6a66423",
-    url: "the-smart-way-to-grow-your-money-while-you-sleep",
+    id: "3858dc9e-712f-4377-85e9-fec4b6a86423",
+    url: "how-to-invest-your-money",
     src: "/blog/blog-8.jpg",
     label: "Management",
     text: "How to invest your money: The smart way to grow your money while you sleep",
     date: "May 10, 2024",
   },
   {
-    id: "6e82d1b3-6c6b-4b59-9bb0-afe0fe69a0b3",
+    id: "6e82d1b3-6c6b-4b59-9bb0-afe0fe59a0b3",
     url: "reshaping-the-tech-industry-through-innovation",
     src: "/blog/blog-9.jpg",
     label: "Management",
@@ -617,7 +617,7 @@ export const blogs = [
     date: "Oct 12, 2024",
   },
   {
-    id: "1c2d5f9e-8f8d-4e91-b0af-31b2e2a54f71",
+    id: "1c2d5f9e-8f8d-4e91-b0af-31b2g2a54f71",
     url: "latest-industry-trends-analyzed",
     src: "/blog/blog-10.jpg",
     label: "Finances",
@@ -625,7 +625,7 @@ export const blogs = [
     date: "Nov 21, 2024",
   },
   {
-    id: "1c2d5f9e-8f8d-4e91-b0af-31b2e2a54f41",
+    id: "1c2d5f9e-8f8d-4e91-b0af-31b2e2b54f41",
     url: "strategies-for-seamless-mobile-apps",
     src: "/blog/blog-2.jpg",
     label: "Business",
@@ -633,7 +633,7 @@ export const blogs = [
     date: "Jun 24, 2024",
   },
   {
-    id: "1c2d5f9e-8d8d-4e91-b0af-31b2e2a54f41",
+    id: "1c2d5f9e-8d8d-4e91-b0af-31b2e1a54f41",
     url: "examining-our-branding-strategy-closely",
     src: "/blog/blog-1.jpg",
     label: "Finances",
@@ -641,5 +641,83 @@ export const blogs = [
     date: "May 21, 2024",
   }
 ];
+
+export const pricing = [
+  {
+    id: 1,
+    title: "Basic",
+    text: "Malesuada duis ac posuere odio cras nibh blandi vitae senectus porttitor arcu.",
+    price: "$49/mo",
+    href: "/product/basic",
+    listTitle: [
+      {
+        id: 1,
+        listText: "All basic CRM features",
+      },
+      {
+        id: 2,
+        listText: "Up to 10,100 contacts"
+      },
+      {
+        id: 3,
+        listText: "Normal support"
+      },
+      {
+        id: 4,
+        listText: "Mobile App"
+      },
+    ]
+  },
+  {
+    id: 2,
+    title: "Pro",
+    text: "Malesuada duis ac posuere odio cras nibh blandi vitae senectus porttitor arcu.",
+    price: "$199/mo",
+    href: "/product/pro",
+    listTitle: [
+      {
+        id: 1,
+        listText: "All advanced CRM features"
+      },
+      {
+        id: 2,
+        listText: "Up to 50,100 contacts"
+      },
+      {
+        id: 3,
+        listText: "Premium support"
+      },
+      {
+        id: 4,
+        listText: "Custom branding"
+      },
+    ]
+  },
+  {
+    id: 3,
+    title: "Professional",
+    text: "Malesuada duis ac posuere odio cras nibh blandi vitae senectus porttitor arcu.",
+    price: "$499/mo",
+    href: "/product/professional",
+    listTitle: [
+      {
+        id: 1,
+        listText: "All enterprise CRM features"
+      },
+      {
+        id: 2,
+        listText: "Up to 200,000 contacts"
+      },
+      {
+        id: 3,
+        listText: "Dedicated support"
+      },
+      {
+        id: 4,
+        listText: "Account manager"
+      },
+    ]
+  },
+]
 
 

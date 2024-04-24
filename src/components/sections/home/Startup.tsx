@@ -99,6 +99,7 @@ const Startup = () => {
             <div className="col-span-12 mt-10">
               <div className="sm:flex justify-center items-center gap-x-5">
                 <Button
+                  href="/pricing"
                   className={`${styles.blackButton} sm:mb-0 mb-5`}
                   title="Get Started"
                 />
