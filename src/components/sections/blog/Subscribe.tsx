@@ -43,6 +43,7 @@ const Subscribe = () => {
                 action="#"
               >
                 <input
+                  maxLength={38}
                   placeholder="Email"
                   className="w-full outline-none sm:text-[18px] p-5 text-white placeholder:text-white 
                    bg-primary-100 border focus:text-white border-white"

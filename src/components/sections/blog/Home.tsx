@@ -2,7 +2,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import styles from "@/style";
 import Image from "next/image";
 import Link from "next/link";
-import PostImage from "/public/post-image-1.jpg";
+import PostImage from "/public/blog/blog-1.jpg";
 
 const Home = () => {
   return (
@@ -21,7 +21,7 @@ const Home = () => {
         <div>
           <Link className="group flex flex-col border border-primary-100" 
             href="/post/is-it-smart-to-invest-in-cryptocurrency-in-2025">
-            <div className="relative overflow-hidden md:h-[500px] sm:h-[350px] h-[300px]">
+            <div className="relative overflow-hidden md:h-[650px] sm:h-[350px] h-[300px]">
               <Image
                 fill
                 loading="eager"

@@ -723,4 +723,28 @@ export const pricing = [
   },
 ]
 
+export const contact = [
+  {
+    id: 1,
+    placeholder: "Enter your name",
+    type: "text",
+  },
+  {
+    id: 2,
+    placeholder: "Enter your email",
+    type: "email",
+  },
+  {
+    id: 3,
+    placeholder: "(132) 532 - 5367",
+    type: "tel",
+  },
+  {
+    id: 4,
+    placeholder: "ex. Services",
+    type: "text",
+  },
+
+]
+
 

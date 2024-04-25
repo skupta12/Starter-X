@@ -7,7 +7,6 @@ import ActiveCategory from "@/components/ActiveCategory";
 import { blogs } from "@/lib/data";
 
 export default async function Post() {
-
   return (
     <section className={`${styles.sectionPadding} bg-background-200`}>
       <MaxWidthWrapper>
