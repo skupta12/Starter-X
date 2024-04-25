@@ -20,7 +20,8 @@ export default function Pricing() {
         </div>
         <div className="grid grid-cols-12 gap-6">
           {pricing.map(({ id, title, text, listTitle, price, href }, i) => (
-            <div className="lg:col-span-4 md:col-span-6 col-span-12 border border-primary-100" key={id}>
+            <div className="lg:col-span-4 md:col-span-6 
+            col-span-12 border border-primary-100" key={id}>
               <div
                 className={`${
                   i === 1 ? "bg-primary-100" : ""
@@ -45,7 +46,8 @@ export default function Pricing() {
                 <h4 className={`${styles.heading4} mb-7`}>
                   What&apos;s included
                 </h4>
-                <ul className={`list-disc list-inside flex flex-col gap-4 ${i === 1 ? "marker:text-orange-500" : ""}`}>
+                <ul className={`list-disc list-inside flex flex-col gap-4 
+                ${i === 1 ? "marker:text-orange-500" : ""}`}>
                   {listTitle.map((item, i) => (
                     <li
                       className={`sm:text-[18px] text-base leading-[1.6]`}

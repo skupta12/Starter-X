@@ -107,6 +107,14 @@ const Header = () => {
                       Confirm Email
                     </Link>
                   </DropdownItem>
+                  <DropdownItem textValue="404 page" variant="light">
+                    <Link
+                      className="text-black font-medium opacity-[60%]"
+                      href="/404"
+                    >
+                      404 Page
+                    </Link>
+                  </DropdownItem>
                 </DropdownMenu>
               </Dropdown>
             ) : null}

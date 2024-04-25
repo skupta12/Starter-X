@@ -1,13 +1,15 @@
+import NotFound from "@/app/NotFound";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { aboutTestimonial } from "@/lib/data";
 import styles from "@/style";
 import Image from "next/image";
 
 export default function TeamMember({ params }: { params: { url: string } }) {
+
   const teamMember = aboutTestimonial?.find((obj) => obj.url === params.url);
 
   if (!teamMember) {
-    return <div>Error</div>;
+    return <NotFound />;
   }
 
   const { name, image, position, alt, media } = teamMember;
@@ -22,6 +24,7 @@ export default function TeamMember({ params }: { params: { url: string } }) {
             lg:h-[607px] md:h-[500px] h-[400px]"
             >
               <Image
+                loading="eager"
                 className="object-cover"
                 quality={90}
                 fill

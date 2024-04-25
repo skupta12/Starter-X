@@ -8,13 +8,14 @@ import Hexagon from "/public/svg/hexagon.svg";
 import Square from "/public/svg/square.svg";
 import LatestPosts from "@/components/LatestPosts";
 import { LinkButton } from "@/components/Button";
+import NotFound from "@/app/NotFound";
 
 export default function Page({ params }: { params: { url: string } }) {
 
   const post = blogs?.find((obj) => obj.url === params.url);
 
   if (!post) {
-    return <div>Error</div>;
+    return <NotFound />;
   }
 
   const { text, label, date, src } = post;
