@@ -1,17 +1,32 @@
+"use client"
+
 import Button, { LinkButton } from "@/components/Button";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { instruction } from "@/lib/data";
 import styles from "@/style";
+import { motion } from "framer-motion";
 
 const Instruction = () => {
   return (
     <section
       className={`${styles.sectionPadding} bg-background-200 overflow-hidden`}
     >
+      <motion.div
+         initial={{ opacity: 0 }}
+         transition={{ ease: "easeInOut", duration: 0.5, delay: 0.4 }}
+         whileInView={{ opacity: 1 }}
+         viewport={{ once: true }}
+      >
       <div className="border-t lg:border-b border-primary-100">
         <MaxWidthWrapper>
           <div className="grid grid-cols-12 gap-4">
-            <div className="lg:col-span-6 col-span-12">
+            <motion.div
+                className="lg:col-span-6 col-span-12"
+               initial={{ opacity: 0, y: 40 }}
+               transition={{ ease: "easeInOut", duration: 0.5, delay: 0.6 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: true }}
+            >
               <div className="title lg:mt-20 mt-10 lg:pr-14 sm:mb-14 mb-10">
                 <h2 className={styles.heading2}>
                   It has never been easier to manage your finances
@@ -25,7 +40,8 @@ const Instruction = () => {
                 />
                 <LinkButton title="Learn more" />
               </div>
-            </div>
+            </motion.div>
+          
             <div className="lg:col-span-6 col-span-12">
               <ul className="relative">
                 {instruction.map(({ id, title, text }) => {
@@ -47,6 +63,8 @@ const Instruction = () => {
           </div>
         </MaxWidthWrapper>
       </div>
+      </motion.div>
+     
     </section>
   );
 };

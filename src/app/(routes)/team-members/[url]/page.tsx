@@ -1,4 +1,4 @@
-import NotFound from "@/app/NotFound";
+import NotFound from "@/app/not-found";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { aboutTestimonial } from "@/lib/data";
 import styles from "@/style";

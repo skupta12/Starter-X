@@ -8,7 +8,7 @@ import Hexagon from "/public/svg/hexagon.svg";
 import Square from "/public/svg/square.svg";
 import LatestPosts from "@/components/LatestPosts";
 import { LinkButton } from "@/components/Button";
-import NotFound from "@/app/NotFound";
+import NotFound from "@/app/not-found";
 
 export default function Page({ params }: { params: { url: string } }) {
 

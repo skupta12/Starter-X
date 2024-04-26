@@ -1,15 +1,26 @@
+"use client"
+
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { testimonial } from "@/lib/data";
 import styles from "@/style";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Testimonial = () => {
   return (
     <section className={`${styles.sectionPadding} bg-white`}>
       <MaxWidthWrapper>
+        <motion.div
+              initial={{ opacity: 0 }}
+              transition={{ ease: "easeInOut", duration: 0.5, delay: 0.4 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+        >
         <div className={`text-center sm:mb-14 mb-10`}>
           <h2 className={styles.heading2}>What our clients say</h2>
         </div>
+        </motion.div>
+       
         <div className="grid grid-cols-12 gap-6">
           {testimonial.map((item, i) => {
             return (
