@@ -19,18 +19,12 @@ import {
 import { nav } from "@/lib/data";
 import Image from "next/image";
 import Logo from "/public/svg/header-logo.svg";
-import { motion } from "framer-motion";
 
 const Header = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <motion.div
-      initial={{ y: 0, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ ease: "easeInOut", duration: 0.40 }}
-    >
     <Navbar
       className={`md:py-3 border-b border-primary-100`}
       classNames={{
@@ -189,7 +183,6 @@ const Header = () => {
         ))}
       </NavbarMenu>
     </Navbar>
-    </motion.div>
   );
 }
 
