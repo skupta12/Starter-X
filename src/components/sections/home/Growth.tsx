@@ -7,18 +7,17 @@ import GrowthImage2 from "/public/growth-image-2.jpg";
 import { numbers } from "@/lib/data";
 import styles from "@/style";
 import { motion } from "framer-motion";
+import { Ytransition } from "@/components/Transition";
 
 const Growth = () => {
   return (
     <section className={`bg-white ${styles.sectionPadding}`}>
       <MaxWidthWrapper>
         <div className="grid lg:grid-cols-12 lg:gap-x-10 gap-x-5 gap-y-10">
-          <motion.div
+          <Ytransition
             className="col-span-6 lg:order-1 order-2"
-            initial={{ y: 30, opacity: 0 }}
-            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.2 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            y={30}
+            delay={0.2}
           >
             <div className="sm:mb-14 mb-10 border border-primary-100">
               <Image
@@ -50,14 +49,12 @@ const Growth = () => {
                 );
               })}
             </div>
-          </motion.div>
+          </Ytransition>
 
-          <motion.div
+          <Ytransition
             className="col-span-6 lg:pl-14 order-1"
-            initial={{ y: 30, opacity: 0 }}
-            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.6 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            y={30}
+            delay={0.6}
           >
             <div>
               <h2 className={styles.heading2}>We have impactful numbers</h2>
@@ -77,7 +74,7 @@ const Growth = () => {
                 alt="growth image"
               />
             </div>
-          </motion.div>
+          </Ytransition>
         </div>
       </MaxWidthWrapper>
     </section>

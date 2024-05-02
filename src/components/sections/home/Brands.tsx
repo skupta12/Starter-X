@@ -1,6 +1,7 @@
-"use client"
+"use client";
 
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import OpacityTransition from "@/components/Transition";
 import { brands } from "@/lib/data";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -16,14 +17,15 @@ const Brands = () => {
                 key={id}
                 className="lg:col-span-2 md:col-span-4 col-span-6 justify-self-center"
               >
-                  <motion.div
-                   initial={{ opacity: 0 }}
-                   animate={{ opacity: 1 }}
-                   transition={{ ease: "easeInOut", duration: 0.5, delay: 0.2 }}
-                   viewport={{ once: true }}
-                  >
-                    <Image loading="eager" width={150} height={35} src={img} alt={alt + `-${id}`} />
-                  </motion.div>
+                <OpacityTransition delay={0.4}>
+                  <Image
+                    loading="eager"
+                    width={150}
+                    height={35}
+                    src={img}
+                    alt={alt + `-${id}`}
+                  />
+                </OpacityTransition>
               </div>
             ))}
           </div>

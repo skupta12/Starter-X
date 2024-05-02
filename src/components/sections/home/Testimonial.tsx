@@ -1,33 +1,29 @@
 "use client";
 
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import OpacityTransition from "@/components/Transition";
 import { testimonial } from "@/lib/data";
 import styles from "@/style";
-import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Testimonial = () => {
   return (
     <section className={`${styles.sectionPadding} bg-white`}>
       <MaxWidthWrapper>
-        <motion.div
-          initial={{ opacity: 0 }}
-          transition={{ ease: "easeInOut", duration: 0.5, delay: 0.2 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-        >
+        <OpacityTransition delay={0.2}>
           <div className={`text-center sm:mb-14 mb-10`}>
             <h2 className={styles.heading2}>What our clients say</h2>
           </div>
-        </motion.div>
+        </OpacityTransition>
 
         <div className="grid grid-cols-12 gap-6">
           {testimonial.map((item, i) => {
             return (
-              <div
+              <OpacityTransition
+                delay={item.framerDelay}
                 key={i}
                 className="lg:col-span-4 content-end
-              col-span-12 border border-primary-100 bg-background-200"
+                col-span-12 border border-primary-100 bg-background-200"
               >
                 <div className="sm:px-[40px] px-[30px] sm:pt-[64px] pt-[54px] sm:pb-[130px] pb-[100px]">
                   <p className="sm:text-[22px] text-[20px] font-medium">
@@ -53,7 +49,7 @@ const Testimonial = () => {
                     <div className="text-primary-200">{item.position}</div>
                   </div>
                 </div>
-              </div>
+              </OpacityTransition>
             );
           })}
         </div>

@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import { Providers } from "./providers";
 import Footer from "@/components/Footer";
 import Cta from "@/components/sections/home/Cta";
+import { Ytransition } from "@/components/Transition";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,7 +27,9 @@ export default function RootLayout({
         <Header />
         <main className="relative flex flex-col">
           <div className="flex-grow flex-1">
-            <Providers>{children}</Providers>
+            <Providers>
+              <Ytransition  y={50}>{children}</Ytransition>
+            </Providers>
             <Cta />
           </div>
         </main>

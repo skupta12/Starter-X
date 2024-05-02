@@ -3,21 +3,16 @@
 import Accordion from "@/components/Accordion";
 import Button, { LinkButton } from "@/components/Button";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import OpacityTransition, { Ytransition } from "@/components/Transition";
 import { accordion } from "@/lib/data";
 import styles from "@/style";
 import { motion } from "framer-motion";
 
 const Experience = () => {
-
   return (
     <section className={`${styles.sectionPadding} bg-background-200`}>
       <MaxWidthWrapper>
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ ease: "easeInOut", duration: 0.5, delay: 0.2 }}
-        >
+        <OpacityTransition delay={0.2}>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center pb-16">
             <div>
               <h2 className={styles.heading2}>
@@ -33,13 +28,8 @@ const Experience = () => {
               <LinkButton title="Browse all features" />
             </div>
           </div>
-        </motion.div>
-        <motion.div
-          initial={{ y: 60, opacity: 0 }}
-          transition={{ ease: "easeInOut", duration: 0.5, delay: 0.5 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        </OpacityTransition>
+        <Ytransition delay={0.5} y={40}>
           <div className="accordion max-w-[820px] ml-auto">
             {accordion.map((item, index) => (
               <Accordion
@@ -50,7 +40,7 @@ const Experience = () => {
               />
             ))}
           </div>
-        </motion.div>
+        </Ytransition>
       </MaxWidthWrapper>
     </section>
   );

@@ -8,31 +8,23 @@ import StartupImage1 from "/public/svg/startup/startup-image-1.svg";
 import StartupImage2 from "/public/svg/startup/startup-image-2.svg";
 import StartupImage3 from "/public/svg/startup/startup-image-3.svg";
 import { Button, LinkButton } from "@/components/Button";
-import { motion } from "framer-motion";
+import OpacityTransition from "@/components/Transition";
 
 const Startup = () => {
   return (
     <section className={styles.sectionPadding}>
       <MaxWidthWrapper>
-        <motion.div
-          initial={{ opacity: 0 }}
-          transition={{ ease: "easeInOut", duration: 0.5, delay: 0.2 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-        >
+        <OpacityTransition delay={0.2}>
           <div className="sm:mb-14 mb-10 text-center">
             <h2 className={styles.heading2}>
               Our app is great for individuals,{" "}
               <br className="sm:block hidden" /> startups and enterprises
             </h2>
           </div>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          transition={{ ease: "easeInOut", duration: 0.5, delay: 0.5 }}
-          whileInView={{ opacity: 1 }}
+        </OpacityTransition>
+        <OpacityTransition
           className="grid grid-cols-12 lg:gap-8 gap-5"
-          viewport={{ once: true }}
+          delay={0.5}
         >
           <div className="lg:col-span-4 col-span-12 border border-primary-100 relative overflow-hidden">
             <div className="xs:h-[800px] h-[600px]">
@@ -112,11 +104,8 @@ const Startup = () => {
             </div>
           </div>
           <div className="col-span-12 mt-10">
-            <motion.div
-              initial={{ opacity: 0 }}
-              transition={{ ease: "easeInOut", duration: 0.5, delay: 0.2 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
+            <OpacityTransition
+              delay={0.2}
               className="sm:flex justify-center items-center gap-x-5"
             >
               <Button
@@ -125,9 +114,9 @@ const Startup = () => {
                 title="Get Started"
               />
               <LinkButton title="Learn more" />
-            </motion.div>
+            </OpacityTransition>
           </div>
-        </motion.div>
+        </OpacityTransition>
       </MaxWidthWrapper>
     </section>
   );

@@ -233,7 +233,8 @@ export const testimonial = [
     text: "With Starter X's robust security measures, I always feel confident that my funds are protected. No doubt it's the best bank service.",
     position: "VP of Finance at Bank",
     img: "/testimonial-1.jpg",
-    color: "#F1A280"
+    color: "#F1A280",
+    framerDelay: 0.3,
   },
   {
     id: 2,
@@ -241,7 +242,8 @@ export const testimonial = [
     text: "I'm delighted with Starter X's user-friendly mobile app and convenient online banking features. It truly is the best bank service!",
     position: "VP of Finance at Bank",
     img: "/testimonial-2.jpg",
-    color: "#E4D275"
+    color: "#E4D275",
+    framerDelay: 0.5,
   },
   {
     id: 3,
@@ -249,7 +251,8 @@ export const testimonial = [
     text: "Starter X's innovative approach to banking with its AI-powered features sets it apart as the best bank service in the USA.",
     position: "VP of Finance at Bank",
     img: "/testimonial-3.jpg",
-    color: "#CEEAE8"
+    color: "#CEEAE8",
+    framerDelay: 0.7,
   },
 ];
 
