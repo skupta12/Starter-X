@@ -16,7 +16,7 @@ const Experience = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ ease: "easeInOut", duration: 0.5, delay: 0.4 }}
+          transition={{ ease: "easeInOut", duration: 0.5, delay: 0.2 }}
         >
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center pb-16">
             <div>

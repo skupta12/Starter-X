@@ -52,7 +52,7 @@ const Control = () => {
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.4 }}
+            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
              <div className="grid grid-cols-12 gap-4 items-center">

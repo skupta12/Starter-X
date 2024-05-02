@@ -19,7 +19,7 @@ const Brands = () => {
                   <motion.div
                    initial={{ opacity: 0 }}
                    animate={{ opacity: 1 }}
-                   transition={{ ease: "easeInOut", duration: 0.5, delay: 0.4 }}
+                   transition={{ ease: "easeInOut", duration: 0.5, delay: 0.2 }}
                    viewport={{ once: true }}
                   >
                     <Image loading="eager" width={150} height={35} src={img} alt={alt + `-${id}`} />

@@ -16,7 +16,7 @@ const Growth = () => {
           <motion.div
             className="col-span-6 lg:order-1 order-2"
             initial={{ y: 30, opacity: 0 }}
-            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.4 }}
+            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
