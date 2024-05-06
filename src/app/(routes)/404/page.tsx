@@ -10,7 +10,7 @@ const NotFound = () => {
         <Image
           className="mx-auto text-center"
           width={700}
-          height={346}
+          height={404}
           src={NotFoundImage}
           alt="not found image"
         />

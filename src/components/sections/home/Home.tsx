@@ -3,7 +3,6 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { LinkButton, Button } from "@/components/Button";
 import styles from "@/style";
-import { motion } from "framer-motion";
 import OpacityTransition, { Ytransition } from "@/components/Transition";
 
 const Home = () => {

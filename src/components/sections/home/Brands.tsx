@@ -17,7 +17,7 @@ const Brands = () => {
                 key={id}
                 className="lg:col-span-2 md:col-span-4 col-span-6 justify-self-center"
               >
-                <OpacityTransition delay={0.4}>
+                <OpacityTransition delay={0.2}>
                   <Image
                     loading="eager"
                     width={150}

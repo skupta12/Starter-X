@@ -29,7 +29,7 @@ const Experience = () => {
             </div>
           </div>
         </OpacityTransition>
-        <Ytransition delay={0.5} y={40}>
+        <Ytransition delay={0.2} y={40}>
           <div className="accordion max-w-[820px] ml-auto">
             {accordion.map((item, index) => (
               <Accordion
