@@ -47,3 +47,24 @@ export const Ytransition = ({
     </motion.div>
   );
 };
+
+export const RouteTransition = ({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) => {
+  return (
+    <motion.div
+      className={className}
+      initial={{ y: 40, opacity: 0 }}
+      transition={{ ease: "easeInOut", duration: 0.4, delay: 0 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+    >
+      {children}
+    </motion.div>
+  );
+};
+

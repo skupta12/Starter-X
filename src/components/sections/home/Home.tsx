@@ -4,7 +4,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { LinkButton, Button } from "@/components/Button";
 import styles from "@/style";
 import { motion } from "framer-motion";
-import OpacityTransition from "@/components/Transition";
+import OpacityTransition, { Ytransition } from "@/components/Transition";
 
 const Home = () => {
   return (
@@ -14,9 +14,7 @@ const Home = () => {
     >
       <MaxWidthWrapper>
         <div className="grid grid-cols-12 gap-4 items-center">
-          <div
-            className="home-text lg:col-span-7 col-span-12"    
-          >
+          <Ytransition className="lg:col-span-7 col-span-12" y={40}>
               <h1 className={`${styles.heading1} mb-[16px]`}>
                 The most <br className="md:block hidden" /> transparent &{" "}
                 <br className="md:block hidden" /> secure banking ever
@@ -33,7 +31,8 @@ const Home = () => {
                 />
                 <LinkButton title="Learn more" />
               </div>
-          </div>
+          </Ytransition>
+        
 
           <div className="lg:col-span-5 col-span-12">{/* <Image /> */}</div>
         </div>

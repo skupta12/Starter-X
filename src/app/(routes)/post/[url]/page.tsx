@@ -9,9 +9,10 @@ import Square from "/public/svg/square.svg";
 import LatestPosts from "@/components/LatestPosts";
 import { LinkButton } from "@/components/Button";
 import NotFound from "@/app/not-found";
+import { RouteTransition } from "@/components/Transition";
 
 export default function Page({ params }: { params: { url: string } }) {
-
+  
   const post = blogs?.find((obj) => obj.url === params.url);
 
   if (!post) {
@@ -24,7 +25,7 @@ export default function Page({ params }: { params: { url: string } }) {
     <>
       <section className="lg:pt-24 lg:pb-32 pb-16 pt-16 bg-background-200">
         <MaxWidthWrapper>
-          <div>
+          <RouteTransition>
             <div className="mb-10 text-center">
               <h1 className={styles.heading1}>{text}</h1>
             </div>
@@ -42,13 +43,13 @@ export default function Page({ params }: { params: { url: string } }) {
                 loading="eager"
                 priority
                 fill
-                quality={100}
+                quality={90}
                 className="object-cover"
                 src={src}
                 alt={text}
               />
             </div>
-          </div>
+          </RouteTransition>
           <div className={`${styles.mdContainer}`}>
             <div>
               <h2 className="font-medium lg:text-[32px] md:text-[24px] text-[22px] leading-[1.3] mb-7">
@@ -190,19 +191,20 @@ export default function Page({ params }: { params: { url: string } }) {
             <LinkButton href="/post" title="Browse all posts" />
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1">
-          {blogs.slice(-2).map((item, i) => (
-            <LatestPosts
-              className={i === 0 ? "lg:border-r-0 lg:border-b border-b-0" : ""}
-              key={i}
-              title={item.text}
-              src={item.src}
-              label={item.label}
-              date={item.date}
-              url={item.url}
-            />
-          ))}
+            {blogs.slice(-2).map((item, i) => (
+              <LatestPosts
+                className={
+                  i === 0 ? "lg:border-r-0 lg:border-b border-b-0" : ""
+                }
+                key={i}
+                title={item.text}
+                src={item.src}
+                label={item.label}
+                date={item.date}
+                url={item.url}
+              />
+            ))}
           </div>
-         
         </MaxWidthWrapper>
       </section>
     </>
