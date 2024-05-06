@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import { Providers } from "./providers";
 import Footer from "@/components/Footer";
-import CTA from "@/components/sections/home/CTA";
+import Cta from "@/components/sections/home/Cta";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -28,7 +28,7 @@ export default function RootLayout({
           <div className="flex-grow flex-1">
             <Providers>
               {children}
-              <CTA />
+              <Cta />
             </Providers>
           </div>
         </main>

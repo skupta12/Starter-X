@@ -6,7 +6,7 @@ import Logo from "/public/svg/white-logo.svg";
 import Button, { LinkButton } from "@/components/Button";
 import styles from "@/style";
 
-const CTA = () => {
+const Cta = () => {
   
   return (
     <section className="bg-primary-100 py-14">
@@ -35,4 +35,4 @@ const CTA = () => {
   );
 };
 
-export default CTA;
+export default Cta;
