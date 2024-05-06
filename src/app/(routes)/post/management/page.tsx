@@ -45,7 +45,7 @@ const ManagementPage = () => {
                  h-[200px] border border-primary-100"
                     >
                       <Image
-                        loading="eager"
+                        priority
                         fill
                         className="object-cover md:group-hover:scale-110 duration-300"
                         src={item.src}

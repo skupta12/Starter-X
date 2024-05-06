@@ -35,7 +35,6 @@ const Home = () => {
             sm:h-[400px] h-[300px] lg:mb-0 mb-5 border border-primary-100"
               >
                 <Image
-                  loading="eager"
                   priority
                   className="object-cover"
                   src={AboutImage1}
@@ -51,7 +50,7 @@ const Home = () => {
                 <Image
                   className="object-cover"
                   fill
-                  loading="eager"
+                  priority
                   src={AboutImage2}
                   alt="about image 2"
                 />

@@ -3,7 +3,6 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import OpacityTransition from "@/components/Transition";
 import { brands } from "@/lib/data";
-import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Brands = () => {
@@ -19,7 +18,7 @@ const Brands = () => {
               >
                 <OpacityTransition delay={0.5}>
                   <Image
-                    loading="eager"
+                    priority
                     width={135}
                     height={35}
                     src={img}

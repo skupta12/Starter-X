@@ -28,7 +28,6 @@ const Home = () => {
               <div className="relative overflow-hidden md:h-[650px] sm:h-[350px] h-[300px]">
                 <Image
                   fill
-                  loading="eager"
                   priority
                   quality={90}
                   className="object-cover md:group-hover:scale-110 duration-300"

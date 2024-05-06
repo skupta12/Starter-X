@@ -39,7 +39,7 @@ export default function Page({ params }: { params: { url: string } }) {
           sm:h-[500px] h-[250px] border border-primary-100 mb-20"
             >
               <Image
-                loading="eager"
+                priority
                 fill
                 quality={90}
                 className="object-cover"

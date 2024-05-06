@@ -6,7 +6,7 @@ import styles from "@/style";
 import Image from "next/image";
 
 export default function TeamMember({ params }: { params: { url: string } }) {
-  
+
   const teamMember = aboutTestimonial?.find((obj) => obj.url === params.url);
 
   if (!teamMember) {
@@ -26,7 +26,7 @@ export default function TeamMember({ params }: { params: { url: string } }) {
             lg:h-[607px] md:h-[500px] h-[400px]"
               >
                 <Image
-                  loading="eager"
+                  priority
                   className="object-cover"
                   quality={90}
                   fill

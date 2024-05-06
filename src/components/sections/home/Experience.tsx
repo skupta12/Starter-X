@@ -6,7 +6,6 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import OpacityTransition, { Ytransition } from "@/components/Transition";
 import { accordion } from "@/lib/data";
 import styles from "@/style";
-import { motion } from "framer-motion";
 
 const Experience = () => {
   return (

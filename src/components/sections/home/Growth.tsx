@@ -6,7 +6,6 @@ import GrowthImage1 from "/public/growth-image-1.jpg";
 import GrowthImage2 from "/public/growth-image-2.jpg";
 import { numbers } from "@/lib/data";
 import styles from "@/style";
-import { motion } from "framer-motion";
 import { Ytransition } from "@/components/Transition";
 
 const Growth = () => {

@@ -18,10 +18,10 @@ export default async function Post() {
          <ActiveCategory />
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1">
-          {blogs?.slice(0,6).map((item, i) => (
+          {blogs?.slice(0,6).map(({ date, id, label, src, text, url }, i) => (
             <Link
               key={i}
-              href={`/post/${item.url}`} 
+              href={`/post/${url}`} 
               className={`group flex flex-col border border-t border-primary-100 
               ${i < 4 ? "border-b-0" : ""}
               ${i === 4 ? "lg:border-b border-b-0" : ""}
@@ -35,12 +35,12 @@ export default async function Post() {
                   <Image
                     fill
                     className="object-cover md:group-hover:scale-110 duration-300"
-                    src={item.src}
-                    alt={`post image ${i}`}
+                    src={src}
+                    alt={`post image ${id}`}
                   />
                 </div>
                 <div className="flex flex-wrap group-hover:opacity-70 duration-300">
-                  <h3 className={`${styles.heading3}`}>{item.text}</h3>
+                  <h3 className={`${styles.heading3}`}>{text}</h3>
                 </div>
               </div>
               <div
@@ -48,7 +48,7 @@ export default async function Post() {
             py-5 lg:px-14 px-8 border-t border-primary-100 gap-3"
               >
                 <div className="sm:text-[18px] font-medium">
-                  {item.label} - &nbsp; {item.date}
+                  {label} - &nbsp; {date}
                 </div>
                 <div className="group-hover:translate-x-2 duration-300">
                   <ArrowRight absoluteStrokeWidth size={34} />
