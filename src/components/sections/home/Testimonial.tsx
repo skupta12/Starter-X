@@ -10,7 +10,7 @@ const Testimonial = () => {
   return (
     <section className={`${styles.sectionPadding} bg-white`}>
       <MaxWidthWrapper>
-        <OpacityTransition delay={0.2}>
+        <OpacityTransition delay={0}>
           <div className={`text-center sm:mb-14 mb-10`}>
             <h2 className={styles.heading2}>What our clients say</h2>
           </div>

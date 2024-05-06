@@ -36,7 +36,7 @@ const Control = () => {
         </OpacityTransition>
 
         <MaxWidthWrapper>
-          <Ytransition y={40} delay={0.2}>
+          <Ytransition y={40} delay={0}>
             <div className="grid grid-cols-12 gap-4 items-center">
               <div className="lg:col-span-7 col-span-12">
                 <h2 className={`${styles.heading2} text-white lg:mb-0 mb-5`}>
@@ -70,7 +70,7 @@ const Control = () => {
         </OpacityTransition>
 
         <MaxWidthWrapper>
-          <Ytransition y={40} delay={0.6}>
+          <Ytransition y={40} delay={0.4}>
             <div className="grid grid-cols-12 text-center items-center gap-4">
               {socialLinks.map((socialLink) => (
                 <div className="md:col-span-3 col-span-6" key={socialLink.id}>

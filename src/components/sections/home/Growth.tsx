@@ -17,7 +17,7 @@ const Growth = () => {
           <Ytransition
             className="col-span-6 lg:order-1 order-2"
             y={30}
-            delay={0.2}
+            delay={0}
           >
             <div className="sm:mb-14 mb-10 border border-primary-100">
               <Image
@@ -54,7 +54,7 @@ const Growth = () => {
           <Ytransition
             className="col-span-6 lg:pl-14 order-1"
             y={30}
-            delay={0.6}
+            delay={0.2}
           >
             <div>
               <h2 className={styles.heading2}>We have impactful numbers</h2>

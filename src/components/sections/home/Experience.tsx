@@ -12,7 +12,7 @@ const Experience = () => {
   return (
     <section className={`${styles.sectionPadding} bg-background-200`}>
       <MaxWidthWrapper>
-        <OpacityTransition delay={0.2}>
+        <OpacityTransition delay={0}>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center pb-16">
             <div>
               <h2 className={styles.heading2}>

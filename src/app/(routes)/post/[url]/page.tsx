@@ -12,7 +12,7 @@ import NotFound from "@/app/not-found";
 import { RouteTransition } from "@/components/Transition";
 
 export default function Page({ params }: { params: { url: string } }) {
-  
+
   const post = blogs?.find((obj) => obj.url === params.url);
 
   if (!post) {
@@ -41,7 +41,6 @@ export default function Page({ params }: { params: { url: string } }) {
               <Image
                 sizes="(min-width: 1460px) 1218px, (min-width: 780px) 83.64vw, calc(100vw - 34px)"
                 loading="eager"
-                priority
                 fill
                 quality={90}
                 className="object-cover"

@@ -18,7 +18,7 @@ const Instruction = () => {
               <Ytransition
                 className="lg:col-span-6 col-span-12"
                 y={40}
-                delay={0.6}
+                delay={0.4}
               >
                 <div className="title lg:mt-20 mt-10 lg:pr-14 sm:mb-14 mb-10">
                   <h2 className={styles.heading2}>

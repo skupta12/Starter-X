@@ -11,7 +11,7 @@ const Faq = () => {
   return (
     <section className={`${styles.sectionPadding} bg-background-200`}>
       <MaxWidthWrapper>
-        <OpacityTransition delay={0.2}>
+        <OpacityTransition delay={0}>
           <div className={`text-center sm:mb-14 mb-10`}>
             <h2 className={styles.heading2}>
               Frequently Asked <br className="sm:block hidden" /> Questions
@@ -19,7 +19,7 @@ const Faq = () => {
           </div>
         </OpacityTransition>
 
-        <Ytransition y={60} delay={0.5}>
+        <Ytransition y={60} delay={0.2}>
           <div className="accordion max-w-[1000px] mx-auto">
             {faq.map((item, index) => (
               <FaqAccordion

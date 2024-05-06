@@ -14,7 +14,7 @@ const Startup = () => {
   return (
     <section className={styles.sectionPadding}>
       <MaxWidthWrapper>
-        <OpacityTransition delay={0.2}>
+        <OpacityTransition delay={0}>
           <div className="sm:mb-14 mb-10 text-center">
             <h2 className={styles.heading2}>
               Our app is great for individuals,{" "}
@@ -24,7 +24,7 @@ const Startup = () => {
         </OpacityTransition>
         <OpacityTransition
           className="grid grid-cols-12 lg:gap-8 gap-5"
-          delay={0.5}
+          delay={0.2}
         >
           <div className="lg:col-span-4 col-span-12 border border-primary-100 relative overflow-hidden">
             <div className="xs:h-[800px] h-[600px]">
