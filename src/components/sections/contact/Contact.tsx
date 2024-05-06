@@ -1,4 +1,5 @@
 import Button from "@/components/Button";
+import FormField from "@/components/FormField";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { RouteTransition } from "@/components/Transition";
 import { contact } from "@/lib/data";
@@ -59,7 +60,7 @@ const Contact = () => {
                 action="#"
               >
                 {contact.map((item, i) => (
-                  <input
+                  <FormField
                     key={i}
                     placeholder={item.placeholder}
                     className="w-full sm:w-auto placeholder:text-primary-100 sm:col-span-6 
