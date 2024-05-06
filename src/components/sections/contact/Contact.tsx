@@ -60,7 +60,7 @@ const Contact = () => {
                 action="#"
               >
                 {contact.map((item, i) => (
-                  <FormField
+                  <input
                     key={i}
                     placeholder={item.placeholder}
                     className="w-full sm:w-auto placeholder:text-primary-100 sm:col-span-6 
