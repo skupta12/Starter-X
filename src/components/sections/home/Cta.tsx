@@ -6,7 +6,8 @@ import Logo from "/public/svg/white-logo.svg";
 import Button, { LinkButton } from "@/components/Button";
 import styles from "@/style";
 
-const Cta = () => {
+const CTA = () => {
+  
   return (
     <section className="bg-primary-100 py-14">
       <MaxWidthWrapper>
@@ -34,4 +35,4 @@ const Cta = () => {
   );
 };
 
-export default Cta;
+export default CTA;
