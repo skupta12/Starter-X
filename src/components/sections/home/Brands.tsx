@@ -18,7 +18,6 @@ const Brands = () => {
               >
                 <OpacityTransition delay={0.5}>
                   <Image
-                    priority
                     width={135}
                     height={35}
                     src={img}
