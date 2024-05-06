@@ -39,7 +39,6 @@ export default function Page({ params }: { params: { url: string } }) {
           sm:h-[500px] h-[250px] border border-primary-100 mb-20"
             >
               <Image
-                sizes="(min-width: 1460px) 1218px, (min-width: 780px) 83.64vw, calc(100vw - 34px)"
                 loading="eager"
                 fill
                 quality={90}

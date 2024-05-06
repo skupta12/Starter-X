@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import { Providers } from "./providers";
 import Footer from "@/components/Footer";
-import CTA from "@/components/sections/home/Cta";
+import CTA from "@/components/sections/home/CTA";
 
 const inter = Inter({
   subsets: ["latin"],
