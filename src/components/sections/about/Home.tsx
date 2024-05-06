@@ -35,6 +35,7 @@ const Home = () => {
             sm:h-[400px] h-[300px] lg:mb-0 mb-5 border border-primary-100"
               >
                 <Image
+                  fill
                   priority
                   className="object-cover"
                   src={AboutImage1}
