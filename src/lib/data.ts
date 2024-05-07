@@ -734,21 +734,25 @@ export const contact = [
     id: 1,
     placeholder: "Enter your name",
     type: "text",
+    name: "name"
   },
   {
     id: 2,
     placeholder: "Enter your email",
     type: "email",
+    name: "email"
   },
   {
     id: 3,
-    placeholder: "(132) 532 - 5367",
+    placeholder: "(132) 532 5367",
     type: "tel",
+    name: "phone"
   },
   {
     id: 4,
-    placeholder: "ex. Services",
+    placeholder: "ex. Services (optional)",
     type: "text",
+    name: "services"
   },
 
 ]

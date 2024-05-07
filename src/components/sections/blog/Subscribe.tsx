@@ -40,7 +40,6 @@ const Subscribe = () => {
               </p>
               <form
                 className="relative inline-flex sm:w-[600px] w-full"
-                action="#"
               >
                 <input
                   maxLength={38}
@@ -72,7 +71,7 @@ const Subscribe = () => {
             <ul className="grid grid-cols-2 gap-6">
               {socialLinks.map((item, i) => (
                 <li className="justify-self-center" key={i}>
-                  <LinkButton className="text-white" title={item.title} />
+                  <LinkButton type="button" className="text-white" title={item.title} />
                 </li>
               ))}
             </ul>

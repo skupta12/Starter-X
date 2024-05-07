@@ -8,9 +8,10 @@ type ButtonProps = {
   title: string;
   className?: string;
   href?: string;
+  type: "button" | "submit" | "reset" | undefined;
 };
 
-export const Button = ({ title, className, href = "/" }: ButtonProps) => {
+export const Button = ({ title, type, className, href = "/" }: ButtonProps) => {
 
   const router = useRouter();
   
@@ -19,7 +20,7 @@ export const Button = ({ title, className, href = "/" }: ButtonProps) => {
       <button
         className={`${className} sm:w-auto w-full sm:text-[18px] font-medium px-[30px] 
         py-[18px] inline-block hover:scale-95 duration-300 cursor-pointer`}
-        type="button"
+        type={type}
       >
         {title}
       
@@ -34,7 +35,7 @@ export const LinkButton = ({ title, className, href = "/" }: ButtonProps) => {
 
   return (
     <Link href={href} onClick={() => router.push(href)}>
-      <button className={`${className} sm:text-[18px] font-medium text-[17px]
+      <button type="button" className={`${className} sm:text-[18px] font-medium text-[17px]
       text-gray-600 sm:w-auto w-full justify-center inline-flex items-center 
       group`}>
         {title}
