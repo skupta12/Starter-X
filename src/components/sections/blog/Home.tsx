@@ -3,13 +3,13 @@ import styles from "@/style";
 import Image from "next/image";
 import Link from "next/link";
 import PostImage from "/public/blog/blog-1.jpg";
-import { RouteTransition } from "@/components/Transition";
+import OpacityTransition, { Ytransition } from "@/components/Transition";
 
 const Home = () => {
   return (
     <section className={`lg:py-24 py-16 bg-background-200`}>
-      <RouteTransition>
-        <MaxWidthWrapper>
+      <MaxWidthWrapper>
+        <OpacityTransition>
           <div className="text-center mb-16">
             <h1 className={`${styles.heading1} mx-auto mb-4`}>
               Articles & resources
@@ -20,42 +20,45 @@ const Home = () => {
               amet eu hac ut integer erat a augue odio.
             </p>
           </div>
-          <div>
-            <Link
-              className="group flex flex-col border border-primary-100"
-              href="/post/is-it-smart-to-invest-in-cryptocurrency-in-2025"
-            >
-              <div className="relative overflow-hidden md:h-[650px] sm:h-[350px] h-[300px]">
-                <Image
-                  fill
-                  priority
-                  quality={90}
-                  className="object-cover md:group-hover:scale-110 duration-300"
-                  src={PostImage}
-                  alt="post image 1"
-                />
-              </div>
-              <div
-                className="grid grid-cols-12 gap-5 lg:p-10 p-5 items-center 
+        </OpacityTransition>
+        <Ytransition y={40} delay={0.2}>
+        <div>
+          <Link
+            className="group flex flex-col border border-primary-100"
+            href="/post/is-it-smart-to-invest-in-cryptocurrency-in-2025"
+          >
+            <div className="relative overflow-hidden md:h-[650px] sm:h-[350px] h-[300px]">
+              <Image
+                fill
+                priority
+                quality={90}
+                className="object-cover md:group-hover:scale-110 duration-300"
+                src={PostImage}
+                alt="post image 1"
+              />
+            </div>
+            <div
+              className="grid grid-cols-12 gap-5 lg:p-10 p-5 items-center 
             group-hover:opacity-70 duration-300 border-t border-primary-100"
-              >
-                <div className="lg:col-span-8 col-span-12">
-                  <h3 className={`${styles.heading3}`}>
-                    Is it smart to invest in cryptocurrency in 2025? What you
-                    need to know
-                  </h3>
-                </div>
+            >
+              <div className="lg:col-span-8 col-span-12">
+                <h3 className={`${styles.heading3}`}>
+                  Is it smart to invest in cryptocurrency in 2025? What you need
+                  to know
+                </h3>
+              </div>
 
-                <div className="lg:col-span-4 col-span-12 lg:justify-self-end">
-                  <div className="sm:text-[18px] font-medium">
-                    Business - &nbsp; Jun 26, 2024
-                  </div>
+              <div className="lg:col-span-4 col-span-12 lg:justify-self-end">
+                <div className="sm:text-[18px] font-medium">
+                  Business - &nbsp; Jun 26, 2024
                 </div>
               </div>
-            </Link>
-          </div>
-        </MaxWidthWrapper>
-      </RouteTransition>
+            </div>
+          </Link>
+        </div>
+        </Ytransition>
+        
+      </MaxWidthWrapper>
     </section>
   );
 };

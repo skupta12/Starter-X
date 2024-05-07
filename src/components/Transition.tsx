@@ -17,7 +17,7 @@ export default function OpacityTransition({
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ ease: "easeInOut", duration: 0.5, delay: delay}}
+      transition={{ ease: "easeInOut", duration: 0.4, delay: delay}}
     >
       {children}
     </motion.div>

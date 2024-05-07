@@ -654,7 +654,8 @@ export const pricing = [
     title: "Basic",
     text: "Malesuada duis ac posuere odio cras nibh blandi vitae senectus porttitor arcu.",
     price: "$49/mo",
-    href: "/product/basic",
+    href: "/pricing/basic",
+    delay: 0.2,
     listTitle: [
       {
         id: 1,
@@ -679,7 +680,8 @@ export const pricing = [
     title: "Pro",
     text: "Malesuada duis ac posuere odio cras nibh blandi vitae senectus porttitor arcu.",
     price: "$199/mo",
-    href: "/product/pro",
+    href: "/pricing/pro",
+    delay: 0,
     listTitle: [
       {
         id: 1,
@@ -704,7 +706,8 @@ export const pricing = [
     title: "Professional",
     text: "Malesuada duis ac posuere odio cras nibh blandi vitae senectus porttitor arcu.",
     price: "$499/mo",
-    href: "/product/professional",
+    href: "/pricing/professional",
+    delay: 0.2,
     listTitle: [
       {
         id: 1,

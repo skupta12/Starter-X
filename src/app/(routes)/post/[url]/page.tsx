@@ -9,10 +9,11 @@ import Square from "/public/svg/square.svg";
 import LatestPosts from "@/components/LatestPosts";
 import { LinkButton } from "@/components/Button";
 import NotFound from "@/app/not-found";
-import { RouteTransition } from "@/components/Transition";
+import OpacityTransition, {
+  Ytransition,
+} from "@/components/Transition";
 
 export default function Page({ params }: { params: { url: string } }) {
-
   const post = blogs?.find((obj) => obj.url === params.url);
 
   if (!post) {
@@ -25,7 +26,7 @@ export default function Page({ params }: { params: { url: string } }) {
     <>
       <section className="lg:pt-24 lg:pb-32 pb-16 pt-16 bg-background-200">
         <MaxWidthWrapper>
-          <RouteTransition>
+          <OpacityTransition>
             <div className="mb-10 text-center">
               <h1 className={styles.heading1}>{text}</h1>
             </div>
@@ -34,6 +35,9 @@ export default function Page({ params }: { params: { url: string } }) {
               &nbsp; - &nbsp;
               <span>{date}</span>
             </div>
+          </OpacityTransition>
+
+          <OpacityTransition delay={0.2}>
             <div
               className="relative overflow-hidden lg:h-[700px] md:h-[650px] 
           sm:h-[500px] h-[250px] border border-primary-100 mb-20"
@@ -47,7 +51,8 @@ export default function Page({ params }: { params: { url: string } }) {
                 alt={text}
               />
             </div>
-          </RouteTransition>
+          </OpacityTransition>
+
           <div className={`${styles.mdContainer}`}>
             <div>
               <h2 className="font-medium lg:text-[32px] md:text-[24px] text-[22px] leading-[1.3] mb-7">
