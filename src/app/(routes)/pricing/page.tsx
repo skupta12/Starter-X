@@ -1,7 +1,7 @@
 import Button from "@/components/Button";
 import FaqAccordion from "@/components/FaqAccordion";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import { RouteTransition } from "@/components/Transition";
+import { RouteTransition, Ytransition } from "@/components/Transition";
 import { faq, pricing } from "@/lib/data";
 import styles from "@/style";
 import React from "react";
@@ -10,8 +10,8 @@ export default function Pricing() {
   return (
     <>
       <section className="lg:py-24 py-16 bg-background-200">
-        <RouteTransition>
-          <MaxWidthWrapper>
+        <MaxWidthWrapper>
+          <Ytransition y={20}>
             <div className="text-center mb-14 flex flex-col gap-y-5">
               <h1 className={`${styles.heading1}`}>Pricing</h1>
               <p className={`${styles.paragraph} mx-auto max-w-[50ch]`}>
@@ -20,12 +20,17 @@ export default function Pricing() {
                 odio venenatis tristique.
               </p>
             </div>
-            <div className="grid grid-cols-12 gap-6">
-              {pricing.map(({ id, title, text, listTitle, price, href }, i) => (
-                <div
-                  className="lg:col-span-4 md:col-span-6 
-            col-span-12 border border-primary-100"
+          </Ytransition>
+
+          <div className="grid grid-cols-12 gap-6">
+            {pricing.map(
+              ({ id, title, text, listTitle, price, href, delay }, i) => (
+                <Ytransition
                   key={id}
+                  delay={delay}
+                  y={40}
+                  className="lg:col-span-4 md:col-span-6 
+                col-span-12 border border-primary-100"
                 >
                   <div
                     className={`${
@@ -77,11 +82,11 @@ export default function Pricing() {
                       title="Get started"
                     />
                   </div>
-                </div>
-              ))}
-            </div>
-          </MaxWidthWrapper>
-        </RouteTransition>
+                </Ytransition>
+              )
+            )}
+          </div>
+        </MaxWidthWrapper>
       </section>
       <section className={`${styles.sectionPadding} bg-white`}>
         <MaxWidthWrapper>
