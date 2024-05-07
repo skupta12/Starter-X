@@ -27,6 +27,7 @@ const NotFound = () => {
       </div>
       <div className="text-center">
         <Button
+          type="button"
           href="/"
           className="border border-primary-100 hover:bg-primary-100 hover:text-white"
           title="Go to homepage"
