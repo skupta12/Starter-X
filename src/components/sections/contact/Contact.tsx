@@ -88,7 +88,7 @@ const Contact = () => {
           </OpacityTransition>
           <OpacityTransition
             delay={0.3}
-            className="lg:col-span-7 col-span-12 lg:order-2 order-1"
+            className="lg:col-span-7 col-span-12 lg:order-2 order-1 lg:h-[676px]"
           >
             <div className="mb-10">
               <h1 className={`${styles.heading1} mb-3`}>Contact us</h1>

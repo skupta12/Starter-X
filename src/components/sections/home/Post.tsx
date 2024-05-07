@@ -17,7 +17,7 @@ const Post = () => {
         <OpacityTransition delay={0}>
           <div className="flex sm:flex-row flex-col gap-y-3 items-center justify-between sm:mb-14 mb-10">
             <h2 className={`${styles.heading2}`}>News & articles</h2>
-            <LinkButton href="/post" title="Browse all posts" />
+            <LinkButton type="button" href="/post" title="Browse all posts" />
           </div>
         </OpacityTransition>
         <Ytransition y={60} delay={0.2}>

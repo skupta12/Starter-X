@@ -191,7 +191,7 @@ export default function Page({ params }: { params: { url: string } }) {
         <MaxWidthWrapper>
           <div className="flex sm:flex-row flex-col gap-y-3 items-center justify-between sm:mb-14 mb-10">
             <h2 className={`${styles.heading2}`}>Latest Articles</h2>
-            <LinkButton href="/post" title="Browse all posts" />
+            <LinkButton type="button" href="/post" title="Browse all posts" />
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1">
             {blogs.slice(-2).map((item, i) => (

@@ -24,11 +24,12 @@ const Home = () => {
 
               <div className="sm:flex items-center gap-x-5 mb-16">
                 <Button
+                  type="button"
                   href="/pricing"
                   className={`sm:mb-0 mb-5 ${styles.blackButton}`}
                   title="Get Started"
                 />
-                <LinkButton href="/about" title="Learn more" />
+                <LinkButton type="button" href="/about" title="Learn more" />
               </div>
               <div
                 className="relative overflow-hidden 

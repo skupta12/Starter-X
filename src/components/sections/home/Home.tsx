@@ -24,11 +24,12 @@ const Home = () => {
               </p>
               <div className="sm:flex items-center gap-x-5">
                 <Button
+                  type="button"
                   href="/pricing"
                   className={`sm:mb-0 mb-5 ${styles.blackButton}`}
                   title="Get Started"
                 />
-                <LinkButton title="Learn more" />
+                <LinkButton type="button" title="Learn more" />
               </div>
           </Ytransition>
         

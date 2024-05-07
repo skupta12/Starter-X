@@ -109,11 +109,12 @@ const Startup = () => {
               className="sm:flex justify-center items-center gap-x-5"
             >
               <Button
+                type="button"
                 href="/pricing"
                 className={`${styles.blackButton} sm:mb-0 mb-5`}
                 title="Get Started"
               />
-              <LinkButton title="Learn more" />
+              <LinkButton type="button" title="Learn more" />
             </OpacityTransition>
           </div>
         </OpacityTransition>

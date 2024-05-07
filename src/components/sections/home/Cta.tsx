@@ -23,11 +23,12 @@ const Cta = () => {
 
           <div className="sm:flex items-center gap-x-5">
             <Button
+              type="button"
               href="/pricing"
               className={`${styles.whiteButton} sm:mb-0 mb-5`}
               title="Get Started"
             />
-            <LinkButton className="text-white" title="Learn more" />
+            <LinkButton type="button" className="text-white" title="Learn more" />
           </div>
         </div>
       </MaxWidthWrapper>

@@ -45,11 +45,12 @@ const Control = () => {
               </div>
               <div className="sm:flex items-center gap-x-5 lg:justify-self-end lg:col-span-5 col-span-12">
                 <Button
+                  type="button"
                   href="/pricing"
                   className={`${styles.whiteButton} sm:mb-0 mb-5`}
                   title="Get Started"
                 />
-                <LinkButton className="text-white" title="Learn more" />
+                <LinkButton type="button" className="text-white" title="Learn more" />
               </div>
             </div>
           </Ytransition>
@@ -74,7 +75,7 @@ const Control = () => {
             <div className="grid grid-cols-12 text-center items-center gap-4">
               {socialLinks.map((socialLink) => (
                 <div className="md:col-span-3 col-span-6" key={socialLink.id}>
-                  <LinkButton className="text-white" title={socialLink.title} />
+                  <LinkButton type="button" className="text-white" title={socialLink.title} />
                 </div>
               ))}
             </div>

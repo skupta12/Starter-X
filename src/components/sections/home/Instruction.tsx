@@ -27,11 +27,12 @@ const Instruction = () => {
                 </div>
                 <div className="sm:flex items-center gap-x-5">
                   <Button
+                    type="button"
                     href="/pricing"
                     className={`${styles.blackButton} sm:mb-0 mb-5`}
                     title="Get Started"
                   />
-                  <LinkButton title="Learn more" />
+                  <LinkButton type="button" title="Learn more" />
                 </div>
               </Ytransition>
 
