@@ -24,7 +24,7 @@ const NotFound = () => {
         </p>
       </div>
       <div className="text-center">
-        <Button className="border border-primary-100 hover:bg-primary-100 hover:text-white" title="Go to homepage" />
+        <Button type="button" className="border border-primary-100 hover:bg-primary-100 hover:text-white" title="Go to homepage" />
       </div>
     </div>
   );

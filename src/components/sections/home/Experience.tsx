@@ -20,11 +20,12 @@ const Experience = () => {
             </div>
             <div className="button-block sm:flex items-center lg:justify-self-end gap-x-5">
               <Button
+              type="button"
                 href="/pricing"
                 className={`${styles.blackButton} sm:mb-0 mb-5`}
                 title="Get Started"
               />
-              <LinkButton title="Browse all features" />
+              <LinkButton type="button" title="Browse all features" />
             </div>
           </div>
         </OpacityTransition>

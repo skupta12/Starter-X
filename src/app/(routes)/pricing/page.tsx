@@ -76,6 +76,7 @@ export default function Pricing() {
                       {price}
                     </div>
                     <Button
+                      type="button"
                       href={href}
                       className="sm:w-full border border-primary-100
                    hover:bg-primary-100 hover:text-white"

@@ -63,6 +63,7 @@ const Header = () => {
               <Dropdown className="rounded-none shadow-sm border">
                 <DropdownTrigger>
                   <Button
+                    type="button"
                     disableRipple
                     className="text-black bg-transparent 
                   px-0 py-0 group text-[18px] font-normal"
@@ -132,6 +133,7 @@ const Header = () => {
               <Dropdown className="rounded-none shadow-sm border">
                 <DropdownTrigger>
                   <Button
+                    type="button"
                     disableRipple
                     className="text-black bg-transparent px-0 py-0 group text-[18px] font-normal"
                   >
