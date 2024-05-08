@@ -67,8 +67,8 @@ const page = () => {
                     name="duration"
                   >
                     <option className="text-[20px]">Select duration</option>
-                    <option value="dog">1 month</option>
-                    <option value="cat">3 months</option>
+                    <option value="month">1 month</option>
+                    <option value="month">3 months</option>
                   </select>
                 </div>
                 <Button
