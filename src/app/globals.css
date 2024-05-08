@@ -77,10 +77,3 @@
   align-items: stretch;
 }
 
-
-/* responsive grid wihthout any media queries */
-
-.gridd {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 30ch), 1fr));
-}
