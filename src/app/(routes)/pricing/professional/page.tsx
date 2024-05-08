@@ -10,9 +10,8 @@ const page = () => {
       <section className="bg-background-200 border-b border-primary-100">
         <MaxWidthWrapper>
           <div className="grid grid-cols-12">
-            <OpacityTransition className="lg:col-span-6 col-span-12">
-              <div className="lg:pr-14 lg:border-r border-primary-100 lg:py-14 py-10">
-                <div>
+            <OpacityTransition className="lg:col-span-6 col-span-12 lg:pr-14 
+            lg:border-r border-primary-100 lg:py-14 py-10">
                   <h1 className={`${styles.heading1}`}>Professional</h1>
                   <p className={`${styles.paragraph} mt-4 mb-8`}>
                     Enim purus purus elementum mollis magna sit nunc nulla neque
@@ -20,7 +19,6 @@ const page = () => {
                     sollicitudin at metus sollicitudin nulla massa tuc cras
                     ipsum nisi egestas enim.
                   </p>
-                </div>
                 <h4 className={`${styles.heading4} mb-4`}>
                   What&apos;s included
                 </h4>
@@ -37,13 +35,11 @@ const page = () => {
                     </div>
                   ))}
                 </ul>
-              </div>
             </OpacityTransition>
             <OpacityTransition
               delay={0.2}
-              className="lg:col-span-6 col-span-12"
+              className="lg:col-span-6 col-span-12 lg:pl-14 lg:py-14 py-10"
             >
-              <div className="lg:pl-14 lg:py-14 py-10">
                 <div>
                   <h1 className={`${styles.heading3}`}>
                     Choose your plan duration
@@ -76,7 +72,6 @@ const page = () => {
                   type="button"
                   title="Add to cart"
                 />
-              </div>
             </OpacityTransition>
           </div>
         </MaxWidthWrapper>

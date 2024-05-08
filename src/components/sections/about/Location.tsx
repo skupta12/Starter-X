@@ -19,7 +19,7 @@ const Location = () => {
           <div className="lg:col-span-8 col-span-12">
             <div
               className="relative overflow-hidden lg:h-full 
-            sm:h-[400px] h-[300px] border border-primary-100"
+            sm:h-[400px] h-[300px] border lg:border-b border-b-0 border-primary-100"
             >
               <Image
                 className="object-cover"
