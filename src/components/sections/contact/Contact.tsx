@@ -31,8 +31,9 @@ const Contact = () => {
   });
 
   const onSubmit: SubmitHandler<FormFields> = async (data) => {
+    
     try {
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      await new Promise((resolve) => setTimeout(resolve, 1000));
 
       console.log(data);
 
@@ -64,13 +65,11 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex gap-5">
-              <div>
                 <Phone
                   className="text-gray-500"
                   absoluteStrokeWidth
                   size={45}
                 />
-              </div>
               <div>
                 <h4 className={`${styles.heading4} text-gray-500 mb-3`}>
                   Phone number
