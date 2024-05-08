@@ -1,6 +1,6 @@
 import Button from "@/components/Button";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import OpacityTransition from "@/components/Transition";
+import OpacityTransition, { Ytransition } from "@/components/Transition";
 import { pricing } from "@/lib/data";
 import styles from "@/style";
 
@@ -83,40 +83,44 @@ const page = () => {
       </section>
       <section className={styles.sectionPadding}>
         <MaxWidthWrapper>
-          <div className={styles.mdContainer}>
-            <h3 className={styles.heading3}> About the plan</h3>
-            <p className={`${styles.paragraph} mt-4 mb-8`}>
-              Suspendisse erat eget aliquam eget sollicitudin ac at purus ac
-              orci sit cras tortor a in. Vitae aliquam in accumsan lacus
-              tincidunt bibendum purus faucibus feugiat orci morbi diam enim
-              integer. Quisque diam praesent proin fermentum luctus tellus
-              mattis gravida non. Volutpat eros justo odio suspendisse proin
-              congue egestas cras ut. Nunc pharetra vel velit aliquet hendrerit
-              sed. Enim in faucibus platea porttitor maecenas adipiscing.
-            </p>
-            <h4 className={`${styles.heading4}`}>More information</h4>
-            <p className={`${styles.paragraph} mt-4 mb-8`}>
-              Purus faucibus feugiat orci morbi diam enim integer. Quisque diam
-              praesent proin fermentum luctus tellus mattis gravida non.
-              Volutpat eros justo odio suspendisse proin congue egestas cras ut.
-              Nunc pharetra vel velit aliquet hendrerit sed.
-            </p>
-            <ul className="list-inside list-disc flex flex-col gap-2">
-              <li className={styles.paragraph}>
-                Lorem ipsum dolor sit amet consectetur platea porttitor maecenas
-              </li>
-              <li className={styles.paragraph}>
-                Mauris aliquet faucibus iaculis dui vitae ullamco
-              </li>
-              <li className={styles.paragraph}>
-                Posuere enim mi pharetra neque proin dic pharetra vel velit
-              </li>
-              <li className={styles.paragraph}>
-                Posuere enim mi pharetra neque luctus tellus mattis purus ac
-                orci
-              </li>
-            </ul>
-          </div>
+          <Ytransition y={40}>
+            <div className={styles.mdContainer}>
+              <h3 className={styles.heading3}> About the plan</h3>
+              <p className={`${styles.paragraph} mt-4 mb-8`}>
+                Suspendisse erat eget aliquam eget sollicitudin ac at purus ac
+                orci sit cras tortor a in. Vitae aliquam in accumsan lacus
+                tincidunt bibendum purus faucibus feugiat orci morbi diam enim
+                integer. Quisque diam praesent proin fermentum luctus tellus
+                mattis gravida non. Volutpat eros justo odio suspendisse proin
+                congue egestas cras ut. Nunc pharetra vel velit aliquet
+                hendrerit sed. Enim in faucibus platea porttitor maecenas
+                adipiscing.
+              </p>
+              <h4 className={`${styles.heading4}`}>More information</h4>
+              <p className={`${styles.paragraph} mt-4 mb-8`}>
+                Purus faucibus feugiat orci morbi diam enim integer. Quisque
+                diam praesent proin fermentum luctus tellus mattis gravida non.
+                Volutpat eros justo odio suspendisse proin congue egestas cras
+                ut. Nunc pharetra vel velit aliquet hendrerit sed.
+              </p>
+              <ul className="list-inside list-disc flex flex-col gap-2">
+                <li className={styles.paragraph}>
+                  Lorem ipsum dolor sit amet consectetur platea porttitor
+                  maecenas
+                </li>
+                <li className={styles.paragraph}>
+                  Mauris aliquet faucibus iaculis dui vitae ullamco
+                </li>
+                <li className={styles.paragraph}>
+                  Posuere enim mi pharetra neque proin dic pharetra vel velit
+                </li>
+                <li className={styles.paragraph}>
+                  Posuere enim mi pharetra neque luctus tellus mattis purus ac
+                  orci
+                </li>
+              </ul>
+            </div>
+          </Ytransition>
         </MaxWidthWrapper>
       </section>
     </>
