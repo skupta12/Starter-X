@@ -31,7 +31,6 @@ const Contact = () => {
   });
 
   const onSubmit: SubmitHandler<FormFields> = async (data) => {
-    
     try {
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
@@ -65,11 +64,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex gap-5">
-                <Phone
-                  className="text-gray-500"
-                  absoluteStrokeWidth
-                  size={45}
-                />
+              <Phone className="text-gray-500" absoluteStrokeWidth size={45} />
               <div>
                 <h4 className={`${styles.heading4} text-gray-500 mb-3`}>
                   Phone number
@@ -94,13 +89,11 @@ const Contact = () => {
               className="grid grid-cols-12 sm:gap-8 gap-6 sm:mb-0 mb-10"
             >
               {contact.map((item, i) => (
-                
                 <div
                   className="sm:col-span-6 
                 col-span-12"
                   key={i}
                 >
-                  
                   <input
                     {...register(item.name as keyof FormFields)}
                     placeholder={item.placeholder}

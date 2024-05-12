@@ -57,7 +57,8 @@ const page = () => {
                 </div>
                 <div className="select-wrapper">
                   <select
-                    className="select w-full appearance-none text-[20px] p-5 outline-none border border-primary-100 mb-6"
+                    className="select w-full appearance-none text-[20px] p-5 
+                    outline-none border border-primary-100 mb-6"
                     name="duration"
                   >
                     <option className="text-[20px]">Select duration</option>
