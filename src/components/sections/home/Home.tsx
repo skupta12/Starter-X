@@ -29,7 +29,7 @@ const Home = () => {
                   className={`sm:mb-0 mb-5 ${styles.blackButton}`}
                   title="Get Started"
                 />
-                <LinkButton type="button" title="Learn more" />
+                <LinkButton href="/about" type="button" title="Learn more" />
               </div>
           </Ytransition>
         

@@ -28,7 +28,7 @@ const Cta = () => {
               className={`${styles.whiteButton} sm:mb-0 mb-5`}
               title="Get Started"
             />
-            <LinkButton type="button" className="text-white" title="Learn more" />
+            <LinkButton href="/about" type="button" className="text-white" title="Learn more" />
           </div>
         </div>
       </MaxWidthWrapper>
