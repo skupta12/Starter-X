@@ -37,6 +37,7 @@ const Experience = () => {
                 content={item.content}
                 title={item.title}
                 icon={item.icon}
+                alt={item.alt}
               />
             ))}
           </div>

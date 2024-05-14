@@ -100,30 +100,35 @@ export const accordion = [
     title: "Mobile and desktop app",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
     icon: "/svg/accordion/accordion-icon-1.svg",
+    alt: "accordion icon"
   },
   {
     id: 2,
     title: "Cryptocurrencies supported",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
     icon: "/svg/accordion/accordion-icon-2.svg",
+    alt: "accordion icon"
   },
   {
     id: 3,
     title: "256-bit security encryption",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
     icon: "/svg/accordion/accordion-icon-3.svg",
+    alt: "accordion icon"
   },
   {
     id: 4,
     title: "Earnings & expense reports",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
     icon: "/svg/accordion/accordion-icon-4.svg",
+    alt: "accordion icon"
   },
   {
     id: 5,
     title: "World-class support",
     content: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru.",
     icon: "/svg/accordion/accordion-icon-5.svg",
+    alt: "accordion icon"
   },
 ]
 

@@ -9,11 +9,13 @@ const Accordion = ({
   title,
   content,
   icon,
+  alt,
   className,
 }: {
   title: string;
   content: string;
   icon: string;
+  alt: string;
   className?: string;
 }) => {
   const [active, setActive] = useState<boolean>(false);
@@ -33,7 +35,7 @@ const Accordion = ({
       >
         <div className="flex items-center gap-x-6">
           <div>
-            <Image width={40} height={40} src={icon} alt={title} />
+            <Image width={40} height={40} src={icon} alt={alt} />
           </div>
           <div
             className="text-primary-100 text-left lg:text-[36px] 

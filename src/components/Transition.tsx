@@ -39,7 +39,7 @@ export const Ytransition = ({
     <motion.div
       className={className}
       initial={{ y: y, opacity: 0 }}
-      transition={{ ease: "easeInOut", duration: 0.5, delay: delay}}
+      transition={{ ease: "easeInOut", duration: 0.4, delay: delay}}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
     >
