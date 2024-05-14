@@ -12,10 +12,11 @@ import { z } from "zod";
 import { useState } from "react";
 import { errorMessages } from "@/lib/validators";
 
-type FormFields = z.infer<typeof schema>;
 
 const Contact = () => {
-  
+
+  type FormFields = z.infer<typeof schema>;
+
   const [isFormSubmitted, setIsFormSubmitted] = useState<boolean>(false);
 
   const {

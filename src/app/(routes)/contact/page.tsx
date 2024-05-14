@@ -6,6 +6,7 @@ import styles from "@/style";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 const ContactPage = () => {
+  
   return (
     <>
       <Contact />
