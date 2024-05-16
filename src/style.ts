@@ -16,12 +16,13 @@ const styles = {
   
     sectionPadding: "lg:py-32 py-16",
     mdContainer: "mx-auto max-w-[750px]",
+    smContainer: "mx-auto max-w-[670px]",
     // routePadding: "lg:pt-[180px] pt-[150px]",
   
     // marginX: "sm:mx-16 mx-6",
     // marginY: "sm:my-16 my-6",
     blackButton: "border border-primary-100 text-black hover:text-white hover:bg-primary-100",
-    whiteButton: "text-white border hover:text-black border-white hover:bg-white"
+    whiteButton: "text-white border hover:text-black border-white hover:bg-white",
   };
   
 export default styles;

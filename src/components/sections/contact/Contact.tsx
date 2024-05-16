@@ -17,7 +17,7 @@ const Contact = () => {
 
   type FormFields = z.infer<typeof schema>;
 
-  const [isFormSubmitted, setIsFormSubmitted] = useState<boolean>(false);
+  const [formSubmitted, isFormSubmitted] = useState<boolean>(false);
 
   const {
     register,
@@ -25,9 +25,6 @@ const Contact = () => {
     setError,
     formState: { errors, isSubmitting },
   } = useForm<FormFields>({
-    // defaultValues: {
-    //   email: "test@email.com",
-    // },
     resolver: zodResolver(schema),
   });
 
@@ -37,7 +34,7 @@ const Contact = () => {
 
       console.log(data);
 
-      setIsFormSubmitted(true);
+      isFormSubmitted(true);
     } catch (error) {
       setError("root", {
         message: "This email is already taken",
@@ -143,7 +140,7 @@ const Contact = () => {
                 {errors.root && (
                   <div className="text-red-500">{errors.root.message}</div>
                 )}
-                {isFormSubmitted ? (
+                {formSubmitted ? (
                   <div className="text-red-500 text-[14px] mt-2">Disabled</div>
                 ) : (
                   ""
