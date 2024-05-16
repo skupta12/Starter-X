@@ -162,12 +162,12 @@ const Header = () => {
                       Sign In
                     </Link>
                   </DropdownItem>
-                  <DropdownItem textValue="confirm password" variant="light">
+                  <DropdownItem textValue="pricing" variant="light">
                     <Link
                       className="text-black font-medium opacity-[60%]"
-                      href="/confirm-password"
+                      href="/pricing"
                     >
-                      Confirm Password
+                      Pricing
                     </Link>
                   </DropdownItem>
                   <DropdownItem textValue="confirm email" variant="light">
