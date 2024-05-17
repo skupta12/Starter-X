@@ -19,7 +19,7 @@ export const Button = ({ title, type, className, href = "/" }: ButtonProps) => {
     <Link href={href} onClick={() => router.push(href)}>
       <button
         className={`${className} sm:w-auto w-full sm:text-[18px] font-medium px-[30px] 
-        py-[18px] inline-block hover:scale-95 duration-300 cursor-pointer`}
+        py-[18px] inline-block hover:scale-[.97] duration-300 cursor-pointer`}
         type={type}
       >
         {title}

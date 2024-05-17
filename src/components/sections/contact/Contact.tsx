@@ -12,7 +12,6 @@ import { z } from "zod";
 import { useState } from "react";
 import { errorMessages } from "@/lib/validators";
 
-
 const Contact = () => {
 
   type FormFields = z.infer<typeof schema>;
@@ -95,9 +94,7 @@ const Contact = () => {
                   <input
                     {...register(item.name as keyof FormFields)}
                     placeholder={item.placeholder}
-                    className="placeholder:text-primary-100 w-full 
-                    outline-none sm:text-[18px] p-5 text-black
-            border bg-transparent focus:text-black border-primary-100"
+                    className={styles.input}
                   />
                   {/* @ts-expect-error */}
                   {errors[item.name] && (

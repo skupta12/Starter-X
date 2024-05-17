@@ -141,7 +141,7 @@ const Header = () => {
                   <DropdownItem textValue="sign up" variant="light">
                     <Link
                       className="text-black font-medium opacity-[60%]"
-                      href="/sign-up"
+                      href="/features/sign-up"
                     >
                       Sign Up
                     </Link>
@@ -149,7 +149,7 @@ const Header = () => {
                   <DropdownItem textValue="sign in" variant="light">
                     <Link
                       className="text-black font-medium opacity-[60%]"
-                      href="/sign-in"
+                      href="/features/sign-in"
                     >
                       Sign In
                     </Link>
@@ -165,7 +165,7 @@ const Header = () => {
                   <DropdownItem textValue="confirm email" variant="light">
                     <Link
                       className="text-black font-medium opacity-[60%]"
-                      href="/confirm-email"
+                      href="/features/confirm-email"
                     >
                       Confirm Email
                     </Link>
