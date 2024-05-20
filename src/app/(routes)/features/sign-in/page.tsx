@@ -102,37 +102,41 @@ const SignIn = () => {
                 <span className="px-3 bg-background-200">or</span>
               </div>
             </div>
+            <Link href={""}>
+              <button
+                type="button"
+                className={`inline-flex sm:gap-x-5 gap-x-3 justify-center w-full 
+              sm:text-[18px] font-medium sm:px-[30px] px-[10px] py-[18px] hover:scale-[.97]
+               duration-300 cursor-pointer border border-primary-100 
+               hover:bg-primary-100 hover:text-white`}
+              >
+                <Image
+                  width={25}
+                  height={25}
+                  src={GoogleIcon}
+                  alt="google icon"
+                />
+                Sign up with Google
+              </button>
+            </Link>
+            <Link href={""}>
+              <button
+                type="button"
+                className={`inline-flex sm:gap-x-5 gap-x-3 justify-center w-full 
+              sm:text-[18px] font-medium sm:px-[30px] px-[10px] py-[18px] hover:scale-[.97]
+               duration-300 cursor-pointer border border-primary-100 
+               hover:bg-primary-100 hover:text-white`}
+              >
+                <Image
+                  width={25}
+                  height={25}
+                  src={FacebookIcon}
+                  alt="google icon"
+                />
+                Sign up with Facebook
+              </button>
+            </Link>
 
-            <button
-              type="button"
-              className={`inline-flex sm:gap-x-5 gap-x-3 justify-center w-full 
-              sm:text-[18px] font-medium sm:px-[30px] px-[10px] py-[18px] hover:scale-[.97]
-               duration-300 cursor-pointer border border-primary-100 
-               hover:bg-primary-100 hover:text-white`}
-            >
-              <Image
-                width={25}
-                height={25}
-                src={GoogleIcon}
-                alt="google icon"
-              />
-              Sign up with Google
-            </button>
-            <button
-              type="button"
-              className={`inline-flex sm:gap-x-5 gap-x-3 justify-center w-full 
-              sm:text-[18px] font-medium sm:px-[30px] px-[10px] py-[18px] hover:scale-[.97]
-               duration-300 cursor-pointer border border-primary-100 
-               hover:bg-primary-100 hover:text-white`}
-            >
-              <Image
-                width={25}
-                height={25}
-                src={FacebookIcon}
-                alt="google icon"
-              />
-              Sign up with Facebook
-            </button>
             <div className="text-center sm:text-[18px]">
               <p>
                 Don&apos;t have an account?{" "}
