@@ -1,5 +1,8 @@
 <h1>Starter X - React & Next.js Banking Template</h1>
 
+![@hookform/resolvers](https://img.shields.io/badge/@hookform/resolvers-v3.3.4-green) ![@nextui-org/react](https://img.shields.io/badge/@nextui--org/react-v2.2.10-blue) ![clsx](https://img.shields.io/badge/clsx-v2.1.0-lightgrey) ![Framer Motion](https://img.shields.io/badge/framer--motion-v11.0.25-pink) ![Next.js](https://img.shields.io/badge/next-v14.1.4-yellowgreen) ![React](https://img.shields.io/badge/react-v18-blue) ![Zod](https://img.shields.io/badge/zod-v3.23.6-purple)  
+
+
 ## Getting Started
 
 First, run the development server:
