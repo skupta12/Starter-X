@@ -2,7 +2,7 @@
 
 ![@hookform/resolvers](https://img.shields.io/badge/@hookform/resolvers-v3.3.4-green) ![@nextui-org/react](https://img.shields.io/badge/@nextui--org/react-v2.2.10-blue) ![Framer Motion](https://img.shields.io/badge/framer--motion-v11.0.25-pink) ![Next.js](https://img.shields.io/badge/next-v14.1.4-yellowgreen) ![React](https://img.shields.io/badge/react-v18-blue) ![Zod](https://img.shields.io/badge/zod-v3.23.6-purple)  
 
-![starter-x](https://github.com/user-attachments/assets/490c9adc-99c1-48ed-8e48-b7b1e499f979)
+<a href="https://starter-x-dev.vercel.app/">![starter-x](https://github.com/user-attachments/assets/490c9adc-99c1-48ed-8e48-b7b1e499f979)</a>
 
 ## Getting Started
 
