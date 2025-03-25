@@ -1,6 +1,6 @@
 <h1>Starter X - React & Next.js Banking Template</h1>
 
- ![@nextui-org/react](https://img.shields.io/badge/@nextui--org/react-v2.2.10-blue) ![Framer Motion](https://img.shields.io/badge/framer--motion-v11.0.25-pink) ![Next.js](https://img.shields.io/badge/next-v14.1.4-yellowgreen) ![React](https://img.shields.io/badge/react-v18-blue)
+![Framer Motion](https://img.shields.io/badge/framer--motion-v11.0.25-pink) ![Next.js](https://img.shields.io/badge/next-v14.1.4-yellowgreen) ![React](https://img.shields.io/badge/react-v18-blue)
 
 <a href="https://starter-x-dev.vercel.app/">![starter-x](https://github.com/user-attachments/assets/490c9adc-99c1-48ed-8e48-b7b1e499f979)</a>
 
