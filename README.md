@@ -1,6 +1,23 @@
 <h1>Starter X - React & Next.js Banking Template</h1>
 
-![Framer Motion](https://img.shields.io/badge/framer--motion-v11.0.25-pink) ![Next.js](https://img.shields.io/badge/next-v14.1.4-yellowgreen) ![React](https://img.shields.io/badge/react-v18-blue)
+<p align="left">
+  <a href="https://reactjs.org/" target="_blank">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  </a>
+  <a href="https://nextjs.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+  </a>
+  <a href="https://www.framer.com/motion/" target="_blank">
+    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion"/>
+  </a>
+</p>
+
 
 <a href="https://starter-x-dev.vercel.app/">![starter-x](https://github.com/user-attachments/assets/490c9adc-99c1-48ed-8e48-b7b1e499f979)</a>
 
